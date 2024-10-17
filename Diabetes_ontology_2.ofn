@@ -23,21 +23,47 @@ Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologi
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Bacterial_infections>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Bladder_dysfunction>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blurred_vision>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Catecholamine_mediated>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Decreased_testosterone_level>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Drowsiness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_thirst>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_urination>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Fatigue>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Frequent_vaginal_infections>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Genes_and_family_history>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Heart_disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperosmolarity>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Irritability>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nerve_pain>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Neuroglycopenic>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nocturia>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_feet>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_hand>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Obesity>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Old_age>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Persistent_hunger>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polydipsia>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyphagia>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyuria>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Skin_sores>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Stomach_pain>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss>))
 ############################
 #   Object Properties
 ############################
@@ -93,6 +119,38 @@ ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/unt
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level>)
 
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blurred_vision> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blurred_vision>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blurred_vision>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Catecholamine_mediated> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Catecholamine_mediated>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Catecholamine_mediated>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Decreased_testosterone_level> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Decreased_testosterone_level>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Decreased_testosterone_level>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Drowsiness> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Drowsiness>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Drowsiness>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_thirst> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_thirst>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_thirst>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_urination> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_urination>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_urination>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Fatigue> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Fatigue>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Fatigue>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Frequent_vaginal_infections> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Frequent_vaginal_infections>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Frequent_vaginal_infections>)
+
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender>)
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender>)
@@ -109,6 +167,10 @@ ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/unt
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Heart_disease>)
 
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperosmolarity> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperosmolarity>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperosmolarity>)
+
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension>)
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension>)
@@ -121,6 +183,10 @@ ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/unt
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance>)
 
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Irritability> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Irritability>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Irritability>)
+
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise>)
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise>)
@@ -128,6 +194,26 @@ ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/unt
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production>)
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nerve_pain> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nerve_pain>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nerve_pain>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Neuroglycopenic> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Neuroglycopenic>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Neuroglycopenic>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nocturia> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nocturia>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nocturia>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_feet> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_feet>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_feet>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_hand> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_hand>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_hand>)
 
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Obesity> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Obesity>)
 
@@ -138,9 +224,29 @@ ObjectPropertyAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Old_age>)
 
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight>)
+
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient>)
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Person> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Persistent_hunger> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Persistent_hunger>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Persistent_hunger>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polydipsia> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polydipsia>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polydipsia>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyphagia> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyphagia>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyphagia>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyuria> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyuria>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyuria>)
 
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet>)
 
@@ -150,9 +256,34 @@ ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/unt
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy>)
 
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Skin_sores> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Skin_sores>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Skin_sores>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing>)
+
 # Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history>)
 
 ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history>)
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Stomach_pain> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Stomach_pain>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Stomach_pain>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative>)
+
+# Individual: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss>)
+
+ClassAssertion(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms> <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss>)
 
 
 )
