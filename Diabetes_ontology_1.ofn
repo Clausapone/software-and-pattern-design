@@ -8,8 +8,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto>
 
-Declaration(Class(:Acetylcholine-Mediated))
-Declaration(Class(:Acromegaly))
 Declaration(Class(:Age))
 Declaration(Class(:Bacterial-Infections))
 Declaration(Class(:Bladder-Dysfunction))
@@ -54,11 +52,9 @@ Declaration(Class(:Slow-Wound-Healing))
 Declaration(Class(:Stomach-Pain))
 Declaration(Class(:Symptoms))
 Declaration(Class(:Tachycardia))
-Declaration(Class(:Tinnitus))
 Declaration(Class(:Vegetative))
 Declaration(Class(:Weight-Loss))
 Declaration(Class(:blood_glucose_level))
-Declaration(Class(<http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cushing’s_syndrome>))
 Declaration(DataProperty(:Age))
 Declaration(DataProperty(:BMI-Value))
 Declaration(DataProperty(:Diastolic))
@@ -75,7 +71,7 @@ Declaration(DataProperty(:Range-Dosing))
 Declaration(DataProperty(:Smoke))
 Declaration(DataProperty(:Systolic))
 Declaration(DataProperty(:Weight))
-
+Declaration(NamedIndividual(:Diabetes))
 ############################
 #   Data Properties
 ############################
@@ -149,14 +145,6 @@ DataPropertyRange(:Weight xsd:float)
 ############################
 #   Classes
 ############################
-
-# Class: :Acetylcholine-Mediated (:Acetylcholine-Mediated)
-
-SubClassOf(:Acetylcholine-Mediated :Symptoms)
-
-# Class: :Acromegaly (:Acromegaly)
-
-SubClassOf(:Acromegaly :Causes)
 
 # Class: :Age (:Age)
 
@@ -318,10 +306,6 @@ SubClassOf(:Stomach-Pain :Symptoms)
 
 SubClassOf(:Tachycardia :Symptoms)
 
-# Class: :Tinnitus (:Tinnitus)
-
-SubClassOf(:Tinnitus :Symptoms)
-
 # Class: :Vegetative (:Vegetative)
 
 SubClassOf(:Vegetative :Symptoms)
@@ -333,10 +317,6 @@ SubClassOf(:Weight-Loss :Symptoms)
 # Class: :blood_glucose_level (:blood_glucose_level)
 
 SubClassOf(:blood_glucose_level :Patient)
-
-# Class: <http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cushing’s_syndrome> (<http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cushing’s_syndrome>)
-
-SubClassOf(<http://www.semanticweb.org/khaled/ontologies/2024/7/CDMOnto#Cushing’s_syndrome> :Causes)
 
 
 ############################
