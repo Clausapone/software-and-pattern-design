@@ -15,7 +15,6 @@ Declaration(Class(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/
 Declaration(Class(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high>))
-Declaration(ObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_low>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI>))
@@ -63,23 +62,26 @@ Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologi
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss>))
-
 ############################
 #   Object Properties
 ############################
 
+# Object Property: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on>)
+
+AsymmetricObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on>)
+
 # Object Property: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high>)
 
-AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high> "Strong relationship when is high")
+AsymmetricObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high>)
 
-# Object Property: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_low> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_low>)
+# Object Property: <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has> (<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has>)
 
-AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_low> "Strong relationship when is low")
+InverseFunctionalObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has>)
+AsymmetricObjectProperty(<http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has>)
 
 # Object Property: owl:topObjectProperty (owl:topObjectProperty)
 
 SubObjectPropertyOf(owl:topObjectProperty owl:topObjectProperty)
-
 
 
 ############################
