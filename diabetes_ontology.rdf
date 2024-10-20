@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="&lt;http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8/&gt;"
+     xml:base="&lt;http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8/&gt;"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#depends_on_high">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:comment>Strong relationship when target individual is high</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Bacterial_infections -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Bacterial_infections">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Bladder_dysfunction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Bladder_dysfunction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blurred_vision -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blurred_vision">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Catecholamine_mediated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Catecholamine_mediated"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Decreased_testosterone_level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Decreased_testosterone_level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Drowsiness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Drowsiness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_thirst -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_thirst">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_urination -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Excessive_urination">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Fatigue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Fatigue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Frequent_vaginal_infections -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Frequent_vaginal_infections"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Genes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Genes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Heart_disease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Heart_disease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperosmolarity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperosmolarity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+        <untitled-ontology-8:depends_on rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender"/>
+        <untitled-ontology-8:depends_on rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+        <untitled-ontology-8:depends_on rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hypertension"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Irritability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Irritability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nerve_pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nerve_pain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Neuroglycopenic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Neuroglycopenic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nocturia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Nocturia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_feet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_feet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_hand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Numbness_in_the_hand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Obesity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Obesity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Old_age -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Old_age">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+        <untitled-ontology-8:depends_on_high rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Person"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Age"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#BMI"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Blood_glucose_level"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#HbA1c_level"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Heart_disease"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
+        <untitled-ontology-8:has rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Persistent_hunger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Persistent_hunger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polydipsia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polydipsia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyphagia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyphagia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyuria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Polyuria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
+        <untitled-ontology-8:depends_on rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Skin_sores -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Skin_sores"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_history">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Clinical_data"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Stomach_pain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Stomach_pain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Tachycardia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Vegetative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Weight_loss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
