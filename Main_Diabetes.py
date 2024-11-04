@@ -1,13 +1,21 @@
 from CreateEmbeddings import CreateEmbeddings
 import pandas as pd
-import owlready2 as owl
+import numpy as np
 
-dataset_path = "diabetes.csv"
-ontology_path = "diabetes_ontology.rdf"
+dataset_path = "toy_diabetes.csv"     #SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+dataset = np.array(pd.read_csv(dataset_path).iloc[:, 1:])   # non considero la prima feature poichè rappresenta l'ID univoco del
 
+ontology_path = "diabetes_ontology.rdf"   #SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
 embeddings_maker = CreateEmbeddings(dataset_path, ontology_path)
-OWL_embeddings = embeddings_maker.fit()
+OWL_dataset = embeddings_maker.fit()
 
-dataset = pd.read_csv(dataset_path)
+# arricchimento del dataset iniziale
+New_dataset = np.hstack((dataset, OWL_dataset))
 
-New_dataset = dataset.concatenate(OWL_embeddings)   # concatenazione orizzontale per ottenere il nuovo dataset arricchito
+# preprocessig (ricorda i dummies)
+
+# cross validation
+
+# training
+
+# test
