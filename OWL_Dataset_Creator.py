@@ -25,14 +25,16 @@ def data_2_owl(features_list, data_sample, onto, ontology_path):
 
             setattr(feature_instance, feature_name_lower, [feature_value])
 
-            onto.save("new_"+ontology_path)
+            onto.save("new_" + ontology_path)
 
 
-# avendo l'ontologia popolata, restituisce un embedding (usando OWL2VEC)
-def owl_2_embedding(ontology_path, config_file_path):
-    model = owl2vec_star.extract_owl2vec_model(ontology_file="new_"+ontology_path, config_file=config_file_path, uri_doc=True, lit_doc=True, mix_doc=True)
+# avendo l'ontologia popolata, restituisce un embedding dell'individuo principale usando OWL2VEC,
+# l'individuo principale avrà il nome della prima feature (quella con gli ID)
+def owl_2_embedding(ontology_path, config_file_path, main_individual_iri):
+    model = owl2vec_star.extract_owl2vec_model(ontology_file="new_" + ontology_path, config_file=config_file_path,
+                                               uri_doc=True, lit_doc=True, mix_doc=True)
 
-    return np.array(model.wv['person']) # ?????????????????????????????????
+    return np.array(model.wv[main_individual_iri])
 
 
 #   {EMBEDDING CREATION PROCESS}
@@ -55,9 +57,10 @@ embedding_size = int(config['MODEL']['embed_size'])
 
 # riempio il dataset OWL
 OWL_dataset = np.empty((0, embedding_size))
+main_individual_iri = onto.base_iri + features_list[0]
 for data_sample in dataset:
     data_2_owl(features_list, data_sample, onto, ontology_path)  # popolo ontologia
-    embedding = owl_2_embedding(ontology_path, config_file_path)  # creo l'embedding dell'ontologia popolata
+    embedding = owl_2_embedding(ontology_path, config_file_path, main_individual_iri)  # creo l'embedding dell'ontologia popolata
     OWL_dataset = np.vstack((OWL_dataset, embedding))
 
 np.save("OWL_dataset.npy", OWL_dataset)

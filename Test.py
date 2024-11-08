@@ -4,9 +4,10 @@ from torchmetrics import Accuracy, Precision, Recall, F1Score, ConfusionMatrix
 
 # {TEST FUNCTION}
 # computing and exporting the results as evaluation metrics
-def test(model, X_test, Y_test, criterion):
+def test(model, X, Y, test_mask, criterion):
 
-    # instantiating metrics functions
+    Y_test = Y[test_mask]
+
     accuracy = Accuracy(task="binary")
     precision = Precision(task="binary")
     recall = Recall(task="binary")
@@ -16,9 +17,9 @@ def test(model, X_test, Y_test, criterion):
     # computing the predictions in evaluating mode of pytorch
     model.eval()
     with torch.no_grad():
-        preds = model.forward(X_test)
-        loss = criterion(preds, Y_test)
-        preds = torch.round(preds)
+        preds = model.forward(X)
+        loss = criterion(preds[test_mask], Y_test)
+        preds = torch.round(preds[test_mask])
 
         accuracy(preds, Y_test)
         precision(preds, Y_test)

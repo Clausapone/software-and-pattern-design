@@ -1,6 +1,6 @@
 import torch
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import RobustScaler
+from sklearn.preprocessing import StandardScaler
 from torch import optim
 from torch.nn import BCELoss
 
@@ -10,6 +10,9 @@ import numpy as np
 from Train import train
 from Test import test
 from Model import NeuralNetwork
+from Metrics_plot import show_metrics, show_loss_history, show_confusion_matrix
+
+torch.manual_seed(42)
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -27,9 +30,10 @@ OWL_dataset = np.load("OWL_dataset.npy")      # dataset OWL
 
 # nuovo dataset arricchito
 X = np.hstack((dataset, OWL_dataset))
+#X = dataset
 
 # preprocessig
-scaler = RobustScaler()
+scaler = StandardScaler()
 X = scaler.fit_transform(X)
 
 model = NeuralNetwork(input_dim=X.shape[1])
@@ -41,10 +45,13 @@ Y = torch.tensor(Y, dtype=torch.float).to(device)
 
 # training
 train_mask, test_mask = train_test_split(np.arange(X.shape[0]), test_size=0.2, random_state=42, shuffle=True)
-X_train, X_test = X[train_mask], X[test_mask]
-Y_train, Y_test = Y[train_mask], Y[test_mask]
 
-loss_history = train(model, X_train, Y_train, optimizer, loss_criterion, 1000)
+loss_history = train(model, X, Y, train_mask, optimizer, loss_criterion, 1500)
 
 # test
-test_loss, test_accuracy, test_precision, test_recall, test_f1_s, conf_mat = test(model, X_test, Y_test, loss_criterion)
+test_loss, test_accuracy, test_precision, test_recall, test_f1_s, conf_mat = test(model, X, Y, test_mask, loss_criterion)
+
+show_loss_history(loss_history)
+show_confusion_matrix(conf_mat)
+show_metrics(test_accuracy, test_precision, test_recall, test_f1_s)
+
