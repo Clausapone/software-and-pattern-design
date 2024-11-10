@@ -1,0 +1,2001 @@
+Patient,Gender,Age,Hypertension,Heart_disease,Smoking_history,BMI,HbA1c_level,Blood_glucose_level,Diabetes
+Patient_1,Female,80.0,0,1,never,25.19,6.6,140,0
+Patient_2,Male,28.0,0,0,never,27.32,5.7,158,0
+Patient_3,Female,36.0,0,0,current,23.45,5.0,155,0
+Patient_4,Male,76.0,1,1,current,20.14,4.8,155,0
+Patient_5,Female,20.0,0,0,never,27.32,6.6,85,0
+Patient_6,Female,44.0,0,0,never,19.31,6.5,200,1
+Patient_7,Male,42.0,0,0,never,33.64,4.8,145,0
+Patient_8,Female,32.0,0,0,never,27.32,5.0,100,0
+Patient_9,Female,53.0,0,0,never,27.32,6.1,85,0
+Patient_10,Female,54.0,0,0,former,54.7,6.0,100,0
+Patient_11,Female,78.0,0,0,former,36.05,5.0,130,0
+Patient_12,Female,67.0,0,0,never,25.69,5.8,200,0
+Patient_13,Male,15.0,0,0,never,30.36,6.1,200,0
+Patient_14,Female,42.0,0,0,never,24.48,5.7,158,0
+Patient_15,Male,37.0,0,0,ever,25.72,3.5,159,0
+Patient_16,Male,40.0,0,0,current,36.38,6.0,90,0
+Patient_17,Female,69.0,0,0,never,21.24,4.8,85,0
+Patient_18,Female,72.0,0,1,former,27.94,6.5,130,0
+Patient_19,Male,30.0,0,0,never,33.76,6.1,126,0
+Patient_20,Male,67.0,0,1,not current,27.32,6.5,200,1
+Patient_21,Male,40.0,0,0,former,27.85,5.8,80,0
+Patient_22,Male,45.0,1,0,never,26.47,4.0,158,0
+Patient_23,Male,43.0,0,0,never,26.08,6.1,155,0
+Patient_24,Female,41.0,0,0,current,22.01,6.2,126,0
+Patient_25,Female,20.0,0,0,never,22.19,3.5,100,0
+Patient_26,Female,76.0,0,0,never,23.55,5.0,85,0
+Patient_27,Female,26.0,0,0,never,21.22,6.6,200,0
+Patient_28,Male,50.0,1,0,current,27.32,5.7,260,1
+Patient_29,Female,34.0,0,0,never,56.43,6.2,200,0
+Patient_30,Male,73.0,0,0,former,25.91,9.0,160,1
+Patient_31,Female,77.0,1,1,never,32.02,5.0,159,0
+Patient_32,Female,44.0,0,0,never,24.93,6.1,100,0
+Patient_33,Female,29.0,0,0,never,19.95,5.0,90,0
+Patient_34,Female,60.0,0,0,never,18.03,4.0,159,0
+Patient_35,Female,38.0,0,0,never,28.27,6.2,155,0
+Patient_36,Male,57.0,0,0,never,27.32,6.1,155,0
+Patient_37,Female,53.0,0,0,former,27.32,7.0,159,1
+Patient_38,Female,45.0,1,0,never,23.05,4.8,130,0
+Patient_39,Male,50.0,0,0,former,37.16,9.0,159,1
+Patient_40,Female,19.0,0,0,never,23.35,3.5,155,0
+Patient_41,Female,67.0,0,0,never,63.48,8.8,155,1
+Patient_42,Male,44.0,1,0,current,27.86,6.6,145,0
+Patient_43,Female,21.0,0,0,not current,26.1,5.8,140,0
+Patient_44,Female,30.0,0,0,current,27.32,6.5,158,0
+Patient_45,Female,59.0,0,0,former,27.32,6.0,159,0
+Patient_46,Female,27.0,0,0,not current,30.22,5.7,100,0
+Patient_47,Female,59.0,0,1,ever,23.11,6.5,200,0
+Patient_48,Female,19.0,0,0,not current,27.32,5.7,145,0
+Patient_49,Male,56.0,0,0,never,26.78,4.8,200,0
+Patient_50,Female,30.0,0,0,never,27.01,6.2,145,0
+Patient_51,Male,43.0,0,0,not current,27.32,3.5,126,0
+Patient_52,Female,76.0,0,0,never,22.19,6.6,158,0
+Patient_53,Female,41.0,0,0,never,27.45,5.7,130,0
+Patient_54,Female,26.0,0,0,never,26.45,5.7,158,0
+Patient_55,Male,34.0,0,0,never,31.16,5.8,90,0
+Patient_56,Male,80.0,0,0,former,24.42,4.0,160,0
+Patient_57,Female,53.0,0,0,former,26.37,4.5,200,0
+Patient_58,Male,54.0,0,0,never,31.86,6.6,145,0
+Patient_59,Female,56.0,0,0,never,30.95,6.5,145,0
+Patient_60,Male,79.0,0,0,former,31.19,5.8,155,0
+Patient_61,Female,36.0,0,0,current,32.27,6.2,220,1
+Patient_62,Female,38.0,0,0,ever,22.42,6.0,85,0
+Patient_63,Female,42.0,0,0,never,17.46,6.2,155,0
+Patient_64,Female,44.0,0,0,never,37.35,5.7,145,0
+Patient_65,Male,54.0,0,0,former,32.85,5.0,160,0
+Patient_66,Male,38.0,0,0,never,55.61,6.5,130,0
+Patient_67,Female,60.0,0,0,never,27.32,7.5,300,1
+Patient_68,Male,19.0,0,0,never,27.32,6.1,80,0
+Patient_69,Female,67.0,0,0,never,27.32,6.2,159,1
+Patient_70,Male,29.0,0,0,current,27.32,4.8,158,0
+Patient_71,Male,38.0,0,0,never,27.32,6.0,158,0
+Patient_72,Female,74.0,0,0,former,27.32,6.6,85,0
+Patient_73,Female,55.0,0,0,ever,18.6,6.0,160,0
+Patient_74,Female,80.0,1,0,never,27.32,6.8,280,1
+Patient_75,Female,57.0,0,0,never,24.18,5.8,130,0
+Patient_76,Female,80.0,0,0,never,37.26,4.0,140,0
+Patient_77,Female,62.0,0,0,never,21.12,5.0,126,0
+Patient_78,Female,47.0,0,0,never,20.6,4.0,145,0
+Patient_79,Female,55.0,1,0,never,34.2,5.7,140,0
+Patient_80,Male,28.0,0,0,never,27.63,6.2,130,0
+Patient_81,Female,66.0,0,0,not current,20.3,6.1,160,0
+Patient_82,Female,43.0,0,0,current,18.67,6.2,85,0
+Patient_83,Male,68.0,1,1,current,27.32,5.0,126,0
+Patient_84,Female,5.0,0,0,never,16.76,5.8,160,0
+Patient_85,Male,75.0,0,0,former,27.32,6.1,100,0
+Patient_86,Female,77.0,0,0,never,31.7,6.5,280,1
+Patient_87,Female,79.0,0,0,never,25.18,5.0,130,0
+Patient_88,Female,22.0,0,0,never,25.77,4.0,145,0
+Patient_89,Male,58.0,0,0,former,36.53,5.8,160,0
+Patient_90,Female,28.0,0,0,not current,26.79,5.8,200,0
+Patient_91,Male,80.0,0,0,never,22.06,9.0,155,1
+Patient_92,Female,47.0,0,0,never,36.49,7.5,155,1
+Patient_93,Female,24.0,0,0,current,25.15,6.1,155,0
+Patient_94,Female,42.0,0,0,not current,27.8,6.0,85,0
+Patient_95,Male,18.0,0,0,never,23.76,4.8,160,0
+Patient_96,Female,80.0,1,0,never,44.06,6.5,160,0
+Patient_97,Female,34.0,0,0,never,27.32,6.0,160,0
+Patient_98,Female,80.0,0,0,former,21.97,7.0,300,1
+Patient_99,Female,80.0,0,0,never,20.16,6.5,130,0
+Patient_100,Male,53.0,0,0,current,30.8,6.6,280,1
+Patient_101,Male,55.0,0,0,current,27.32,6.0,80,0
+Patient_102,Female,29.0,0,0,never,29.6,5.7,140,0
+Patient_103,Female,67.0,0,0,never,25.15,5.8,145,0
+Patient_104,Female,54.0,0,0,ever,26.72,6.1,158,0
+Patient_105,Female,33.0,0,0,never,41.24,4.0,160,0
+Patient_106,Female,68.0,0,0,former,34.87,5.8,100,0
+Patient_107,Female,57.0,0,0,former,29.06,6.5,130,0
+Patient_108,Male,59.0,0,1,ever,30.85,5.0,126,0
+Patient_109,Male,16.0,0,0,never,17.61,6.5,158,0
+Patient_110,Female,15.0,0,0,never,19.21,4.5,130,0
+Patient_111,Female,80.0,0,1,never,29.59,5.8,158,0
+Patient_112,Female,46.0,0,0,former,35.44,3.5,140,0
+Patient_113,Female,61.0,0,0,not current,39.36,9.0,140,1
+Patient_114,Female,31.0,0,0,ever,27.39,4.0,159,0
+Patient_115,Male,41.0,0,0,never,27.32,4.0,159,0
+Patient_116,Male,76.0,0,0,never,31.9,7.5,155,1
+Patient_117,Female,49.0,0,0,never,26.61,4.8,158,0
+Patient_118,Female,59.0,0,0,ever,23.08,6.1,130,0
+Patient_119,Male,31.0,0,0,never,25.84,3.5,158,0
+Patient_120,Male,25.0,0,0,never,27.32,6.1,140,0
+Patient_121,Female,59.0,0,0,never,25.8,5.7,90,0
+Patient_122,Male,39.0,0,0,never,27.32,5.7,159,0
+Patient_123,Female,25.0,0,0,never,26.02,4.0,160,0
+Patient_124,Male,41.0,0,0,former,23.56,6.5,140,0
+Patient_125,Female,29.0,0,0,never,24.65,4.5,145,0
+Patient_126,Female,21.0,0,0,current,25.11,6.6,145,0
+Patient_127,Female,77.0,0,0,never,27.32,6.5,140,0
+Patient_128,Male,65.0,0,0,not current,30.37,3.5,145,0
+Patient_129,Female,56.0,0,0,never,21.54,6.0,85,0
+Patient_130,Female,26.0,0,0,never,40.9,6.1,140,0
+Patient_131,Female,41.0,0,0,never,26.7,6.2,130,0
+Patient_132,Female,45.0,0,0,former,42.24,6.1,130,0
+Patient_133,Male,76.0,0,0,never,23.93,5.8,130,0
+Patient_134,Female,43.0,0,0,never,26.71,6.5,300,1
+Patient_135,Female,20.0,0,0,never,28.25,5.8,140,0
+Patient_136,Female,20.0,0,0,not current,30.68,4.0,200,0
+Patient_137,Male,14.0,0,0,never,23.59,3.5,130,0
+Patient_138,Male,38.0,0,0,not current,29.41,4.5,126,0
+Patient_139,Male,24.0,0,0,ever,26.72,6.2,130,0
+Patient_140,Female,70.0,0,0,never,27.5,5.7,145,0
+Patient_141,Male,80.0,0,0,never,29.95,5.8,145,0
+Patient_142,Female,27.0,0,0,never,20.89,6.5,80,0
+Patient_143,Female,37.0,0,0,never,26.04,4.5,159,0
+Patient_144,Female,60.0,0,0,former,34.31,6.1,100,0
+Patient_145,Female,14.0,0,0,never,28.22,6.2,85,0
+Patient_146,Female,48.0,1,0,never,36.73,6.6,126,0
+Patient_147,Female,21.0,0,0,never,27.32,5.8,126,0
+Patient_148,Female,31.0,0,0,never,32.92,3.5,126,0
+Patient_149,Female,19.0,0,0,never,21.46,6.5,155,0
+Patient_150,Male,57.0,0,0,former,29.28,6.6,160,0
+Patient_151,Female,80.0,0,0,former,27.32,6.2,145,0
+Patient_152,Male,11.0,0,0,never,17.09,6.6,126,0
+Patient_153,Male,51.0,0,0,never,27.32,4.8,145,0
+Patient_154,Male,57.0,1,1,not current,27.77,6.6,160,1
+Patient_155,Female,37.0,0,0,never,32.31,5.7,126,0
+Patient_156,Female,31.0,0,0,never,25.11,5.7,145,0
+Patient_157,Male,48.0,0,0,ever,27.32,6.6,160,0
+Patient_158,Female,59.0,0,0,never,22.35,4.8,155,0
+Patient_159,Male,30.0,0,0,never,29.34,6.6,140,0
+Patient_160,Male,17.0,0,0,never,24.88,5.7,158,0
+Patient_161,Male,9.0,0,0,not current,20.56,5.8,200,0
+Patient_162,Female,64.0,0,0,never,27.32,6.2,155,1
+Patient_163,Male,63.0,1,0,ever,35.06,5.8,200,1
+Patient_164,Female,46.0,0,0,never,29.06,6.6,145,0
+Patient_165,Female,52.0,1,0,never,21.46,4.0,80,0
+Patient_166,Male,38.0,0,0,never,29.6,5.8,155,0
+Patient_167,Male,27.0,0,0,never,27.32,6.1,140,0
+Patient_168,Male,63.0,0,0,never,22.3,5.7,126,0
+Patient_169,Female,17.0,0,0,not current,23.49,4.8,158,0
+Patient_170,Female,55.0,0,0,not current,38.08,5.7,158,0
+Patient_171,Male,80.0,0,0,never,23.25,6.1,159,1
+Patient_172,Female,70.0,0,0,current,29.25,8.2,130,1
+Patient_173,Female,22.0,0,0,never,24.36,3.5,158,0
+Patient_174,Female,54.0,0,0,never,23.59,4.8,160,0
+Patient_175,Female,21.0,0,0,former,30.05,6.0,160,0
+Patient_176,Female,43.0,0,0,never,22.29,4.8,100,0
+Patient_177,Female,58.0,0,0,never,39.3,4.8,158,0
+Patient_178,Female,32.0,0,0,current,32.62,5.8,85,0
+Patient_179,Male,21.0,0,0,never,24.19,5.7,200,0
+Patient_180,Female,59.0,1,0,never,27.4,5.7,140,0
+Patient_181,Male,50.0,0,0,ever,25.29,6.5,155,0
+Patient_182,Male,19.0,0,0,never,21.83,6.1,155,0
+Patient_183,Female,38.0,0,0,never,24.3,6.0,145,0
+Patient_184,Female,65.0,0,0,never,23.71,6.2,85,0
+Patient_185,Female,18.0,0,0,never,19.6,3.5,140,0
+Patient_186,Male,27.0,0,0,never,20.53,6.6,155,0
+Patient_187,Female,57.0,0,0,never,25.8,3.5,130,0
+Patient_188,Female,48.0,0,0,never,20.19,7.0,145,1
+Patient_189,Female,42.0,0,0,never,24.81,9.0,159,1
+Patient_190,Female,66.0,0,0,never,27.32,4.0,85,0
+Patient_191,Male,24.0,0,0,never,20.91,4.5,158,0
+Patient_192,Female,25.0,0,0,former,27.25,5.0,159,0
+Patient_193,Male,46.0,0,0,never,31.7,6.5,100,0
+Patient_194,Female,21.0,0,0,never,36.54,5.7,100,0
+Patient_195,Female,80.0,0,1,former,21.3,5.0,159,0
+Patient_196,Male,31.0,0,0,former,25.25,4.8,140,0
+Patient_197,Female,47.0,0,0,current,27.32,6.2,155,0
+Patient_198,Female,52.0,0,0,never,23.75,6.5,90,0
+Patient_199,Male,35.0,0,0,not current,26.4,4.0,130,0
+Patient_200,Male,50.0,0,0,never,33.36,5.8,158,0
+Patient_201,Male,46.0,0,0,never,35.35,5.7,90,0
+Patient_202,Female,61.0,0,0,former,21.43,4.8,85,0
+Patient_203,Male,40.0,0,0,current,29.49,6.0,130,0
+Patient_204,Female,27.0,0,0,never,20.67,6.2,159,0
+Patient_205,Male,43.0,0,0,never,39.46,5.8,200,0
+Patient_206,Female,80.0,0,0,former,36.18,6.5,200,1
+Patient_207,Female,80.0,0,0,former,43.14,6.0,158,0
+Patient_208,Female,50.0,0,0,former,21.66,4.5,126,0
+Patient_209,Female,43.0,0,0,never,27.82,5.8,159,0
+Patient_210,Male,17.0,0,0,never,16.96,6.2,130,0
+Patient_211,Female,80.0,0,0,never,35.49,5.7,159,0
+Patient_212,Male,55.0,0,0,ever,23.88,6.1,158,0
+Patient_213,Female,15.0,0,0,never,19.9,6.6,85,0
+Patient_214,Male,30.0,0,0,former,27.32,6.2,159,0
+Patient_215,Male,66.0,0,0,not current,27.32,5.7,159,0
+Patient_216,Male,56.0,0,0,never,37.59,4.0,159,0
+Patient_217,Female,60.0,0,0,never,27.32,4.8,158,0
+Patient_218,Female,34.0,0,0,current,37.07,5.7,140,0
+Patient_219,Female,52.0,1,0,not current,22.48,5.0,158,0
+Patient_220,Female,41.0,0,0,never,26.02,5.8,80,0
+Patient_221,Male,2.0,0,0,never,24.62,4.0,155,0
+Patient_222,Male,65.0,0,0,current,31.88,3.5,90,0
+Patient_223,Female,80.0,0,0,never,25.15,4.8,85,0
+Patient_224,Female,52.0,1,0,never,50.3,6.6,155,1
+Patient_225,Female,22.0,0,0,never,27.32,4.8,80,0
+Patient_226,Male,17.0,0,0,never,44.0,6.0,145,0
+Patient_227,Female,32.0,0,0,current,25.21,5.0,100,0
+Patient_228,Male,71.0,0,0,never,27.09,8.2,200,1
+Patient_229,Male,48.0,0,0,never,35.24,6.6,100,0
+Patient_230,Male,80.0,0,0,former,28.27,5.8,100,0
+Patient_231,Female,66.0,0,0,former,35.13,6.5,90,0
+Patient_232,Male,80.0,0,1,former,24.36,7.5,280,1
+Patient_233,Female,67.0,0,0,current,26.07,4.5,145,0
+Patient_234,Male,27.0,0,0,never,24.78,6.2,159,0
+Patient_235,Female,49.0,0,0,current,24.34,5.7,80,0
+Patient_236,Female,60.0,0,0,never,26.39,4.5,158,0
+Patient_237,Female,27.0,0,0,never,25.46,6.1,100,0
+Patient_238,Male,59.0,0,0,current,29.2,8.2,220,1
+Patient_239,Male,33.0,0,0,never,28.37,6.6,85,0
+Patient_240,Female,56.0,0,0,not current,26.62,3.5,160,0
+Patient_241,Female,42.0,1,0,never,39.29,6.6,159,0
+Patient_242,Female,60.0,1,0,current,48.02,6.0,85,0
+Patient_243,Female,55.0,1,0,never,32.2,6.0,140,0
+Patient_244,Female,22.0,0,0,not current,20.53,5.8,159,0
+Patient_245,Female,22.0,0,0,never,27.32,4.5,159,0
+Patient_246,Male,80.0,0,1,former,15.65,6.5,145,0
+Patient_247,Female,71.0,0,0,ever,25.15,4.5,85,0
+Patient_248,Male,28.0,0,0,never,32.61,4.8,100,0
+Patient_249,Female,53.0,0,0,former,36.3,5.8,126,0
+Patient_250,Female,4.0,0,0,never,17.1,6.5,158,0
+Patient_251,Male,75.0,0,0,never,19.9,5.0,85,0
+Patient_252,Female,52.0,0,0,never,27.32,4.0,159,0
+Patient_253,Male,68.0,0,0,current,19.47,4.8,160,0
+Patient_254,Female,61.0,0,0,never,31.57,5.7,155,0
+Patient_255,Male,29.0,0,0,current,25.41,6.1,130,1
+Patient_256,Female,62.0,0,0,never,27.32,5.8,100,0
+Patient_257,Male,26.0,0,0,current,22.43,6.6,160,0
+Patient_258,Male,9.0,0,0,never,17.13,3.5,100,0
+Patient_259,Female,50.0,0,0,current,24.02,6.1,100,0
+Patient_260,Female,27.0,0,0,never,26.25,5.7,100,0
+Patient_261,Male,66.0,1,0,former,31.28,3.5,80,0
+Patient_262,Male,77.0,1,0,never,26.32,5.8,90,0
+Patient_263,Male,37.0,0,0,former,37.8,4.8,130,0
+Patient_264,Female,41.0,0,0,never,37.5,3.5,80,0
+Patient_265,Female,80.0,1,0,ever,29.08,6.2,145,0
+Patient_266,Female,45.0,0,0,current,27.32,6.5,200,0
+Patient_267,Female,25.0,0,0,never,25.23,5.0,155,0
+Patient_268,Male,51.0,0,0,never,38.14,6.0,100,0
+Patient_269,Female,65.0,0,0,ever,30.41,5.8,160,0
+Patient_270,Female,34.0,0,0,never,21.3,6.1,130,0
+Patient_271,Female,53.0,0,0,never,45.99,6.1,145,0
+Patient_272,Female,21.0,0,0,not current,27.32,6.6,80,0
+Patient_273,Male,26.0,0,0,never,27.32,6.6,100,0
+Patient_274,Female,46.0,0,0,current,16.02,3.5,85,0
+Patient_275,Female,64.0,0,0,former,21.04,3.5,130,0
+Patient_276,Female,43.0,0,0,never,40.02,4.8,159,0
+Patient_277,Female,70.0,0,0,not current,33.19,7.5,126,1
+Patient_278,Female,80.0,0,0,never,23.86,6.6,80,0
+Patient_279,Male,63.0,0,0,former,27.32,4.0,126,0
+Patient_280,Male,6.0,0,0,never,15.9,6.2,85,0
+Patient_281,Female,69.0,0,0,former,24.22,6.2,140,0
+Patient_282,Male,52.0,0,0,never,27.32,5.0,159,0
+Patient_283,Male,53.0,1,0,former,22.94,6.0,126,0
+Patient_284,Male,46.0,1,0,never,30.83,4.8,200,0
+Patient_285,Female,20.0,0,0,never,21.88,5.8,155,0
+Patient_286,Female,27.0,0,0,never,22.4,6.6,155,0
+Patient_287,Male,35.0,0,0,never,18.56,6.1,200,0
+Patient_288,Female,51.0,0,0,never,43.42,5.0,159,0
+Patient_289,Male,71.0,0,0,never,26.53,8.8,159,1
+Patient_290,Female,57.0,0,0,not current,27.32,6.0,145,0
+Patient_291,Female,4.0,0,0,never,31.53,3.5,130,0
+Patient_292,Female,15.0,0,0,never,23.44,5.8,100,0
+Patient_293,Female,30.0,0,0,current,28.49,6.6,200,0
+Patient_294,Female,70.0,0,0,never,26.71,4.5,159,0
+Patient_295,Female,58.0,0,0,not current,24.3,5.0,145,0
+Patient_296,Male,47.0,0,0,former,31.79,4.5,90,0
+Patient_297,Female,43.0,0,0,never,21.05,4.5,90,0
+Patient_298,Male,3.0,0,0,never,17.97,6.6,90,0
+Patient_299,Male,48.0,1,0,current,36.12,6.8,140,1
+Patient_300,Female,59.0,0,0,never,35.91,6.6,90,0
+Patient_301,Female,79.0,1,0,former,27.32,6.5,159,1
+Patient_302,Female,70.0,0,1,not current,26.72,5.7,90,0
+Patient_303,Male,57.0,0,0,ever,23.9,4.5,90,0
+Patient_304,Female,39.0,0,0,ever,23.65,4.5,145,0
+Patient_305,Male,37.0,0,0,never,37.24,7.0,126,1
+Patient_306,Male,21.0,0,0,never,28.66,6.2,80,0
+Patient_307,Female,80.0,0,0,never,25.37,4.8,159,0
+Patient_308,Male,46.0,0,0,never,22.38,6.0,80,0
+Patient_309,Male,80.0,0,0,former,26.4,4.8,159,0
+Patient_310,Female,52.0,0,0,never,22.83,6.2,145,0
+Patient_311,Female,54.0,0,0,never,24.1,4.8,80,0
+Patient_312,Female,17.0,0,0,never,19.7,5.0,200,0
+Patient_313,Female,51.0,0,0,never,23.15,6.2,200,0
+Patient_314,Female,20.0,0,0,current,26.87,5.7,85,0
+Patient_315,Female,34.0,0,0,never,23.91,6.5,80,0
+Patient_316,Female,46.0,0,0,former,21.66,6.1,158,0
+Patient_317,Female,59.0,1,0,former,29.93,3.5,160,0
+Patient_318,Female,60.0,0,0,never,28.82,6.0,130,0
+Patient_319,Female,80.0,0,0,never,33.2,6.6,160,0
+Patient_320,Male,75.0,1,1,ever,31.12,4.8,126,0
+Patient_321,Male,36.0,0,0,not current,46.12,6.2,130,1
+Patient_322,Male,80.0,0,0,current,22.53,6.1,155,0
+Patient_323,Female,78.0,1,0,not current,27.32,6.2,126,0
+Patient_324,Female,76.0,0,0,never,26.88,5.8,200,0
+Patient_325,Female,29.0,0,0,never,27.32,4.5,145,0
+Patient_326,Female,69.0,0,1,never,32.27,6.2,160,0
+Patient_327,Male,23.0,0,0,never,22.18,3.5,80,0
+Patient_328,Male,57.0,0,0,never,32.19,6.0,80,0
+Patient_329,Male,23.0,0,0,current,27.32,5.8,85,0
+Patient_330,Male,58.0,0,0,not current,28.59,6.6,155,0
+Patient_331,Female,26.0,0,0,never,33.95,4.0,130,0
+Patient_332,Male,48.0,0,0,never,28.35,4.8,200,0
+Patient_333,Female,67.0,0,0,former,32.31,7.0,280,1
+Patient_334,Male,39.0,0,0,current,29.2,6.1,158,0
+Patient_335,Female,58.0,0,0,former,36.47,6.2,158,0
+Patient_336,Female,27.0,0,0,current,22.57,6.0,145,0
+Patient_337,Male,19.0,0,0,never,21.2,4.5,160,0
+Patient_338,Female,59.0,0,0,ever,41.01,6.6,80,0
+Patient_339,Male,46.0,0,0,current,32.18,6.1,126,0
+Patient_340,Female,53.0,0,0,never,34.3,6.6,155,0
+Patient_341,Female,78.0,0,1,never,28.73,4.8,90,0
+Patient_342,Female,49.0,1,0,not current,36.93,8.8,155,1
+Patient_343,Male,50.0,0,0,never,31.84,7.5,145,1
+Patient_344,Female,67.0,0,0,ever,25.18,4.5,126,0
+Patient_345,Female,80.0,0,0,never,20.93,6.6,126,0
+Patient_346,Male,50.0,0,0,never,27.12,5.8,80,0
+Patient_347,Female,48.0,0,0,never,25.67,5.0,159,0
+Patient_348,Female,31.0,0,0,never,22.95,5.7,159,0
+Patient_349,Male,30.0,0,0,current,30.12,6.6,100,0
+Patient_350,Male,73.0,0,0,not current,24.77,7.5,220,1
+Patient_351,Female,59.0,0,0,never,40.59,4.0,159,0
+Patient_352,Male,80.0,0,0,never,25.48,5.8,126,0
+Patient_353,Male,61.0,0,0,ever,27.32,3.5,158,0
+Patient_354,Female,49.0,0,0,never,21.7,5.8,158,0
+Patient_355,Female,42.0,0,0,not current,27.32,4.8,160,0
+Patient_356,Female,60.0,0,0,never,26.93,5.7,140,1
+Patient_357,Female,62.0,0,0,current,24.4,6.6,200,0
+Patient_358,Male,77.0,1,0,not current,25.44,6.1,155,0
+Patient_359,Female,42.0,1,0,current,36.8,6.1,130,0
+Patient_360,Female,23.0,0,0,never,24.21,3.5,140,0
+Patient_361,Female,36.0,0,0,never,36.11,6.2,126,0
+Patient_362,Male,43.0,0,0,never,69.37,7.5,130,1
+Patient_363,Female,46.0,1,0,current,39.17,6.6,100,0
+Patient_364,Male,75.0,0,1,not current,28.12,7.5,160,1
+Patient_365,Female,66.0,0,0,never,37.78,6.5,130,1
+Patient_366,Female,57.0,1,0,never,27.89,6.6,155,0
+Patient_367,Female,23.0,0,0,never,22.55,4.0,158,0
+Patient_368,Female,80.0,0,0,never,36.74,9.0,130,1
+Patient_369,Female,27.0,0,0,never,26.46,6.6,160,0
+Patient_370,Male,23.0,0,0,former,29.22,6.2,140,0
+Patient_371,Male,54.0,0,0,current,26.35,6.0,159,0
+Patient_372,Female,54.0,0,0,former,31.01,6.1,200,0
+Patient_373,Female,22.0,0,0,never,23.24,6.0,140,0
+Patient_374,Female,40.0,0,0,never,35.07,6.5,130,1
+Patient_375,Male,19.0,0,0,never,17.1,6.2,80,0
+Patient_376,Female,47.0,0,0,not current,25.42,4.5,158,0
+Patient_377,Male,40.0,0,0,current,27.32,4.0,155,0
+Patient_378,Female,60.0,0,0,never,24.65,6.6,158,0
+Patient_379,Female,45.0,0,0,never,27.32,5.7,80,0
+Patient_380,Female,25.0,0,0,never,22.35,6.5,85,0
+Patient_381,Male,75.0,0,1,former,22.46,6.0,130,0
+Patient_382,Male,69.0,0,1,former,24.1,6.8,126,1
+Patient_383,Female,15.0,0,0,never,27.32,5.8,90,0
+Patient_384,Female,60.0,0,0,current,21.85,4.5,155,0
+Patient_385,Female,51.0,1,0,never,26.72,6.0,100,0
+Patient_386,Male,10.0,0,0,not current,17.08,4.0,159,0
+Patient_387,Female,34.0,0,0,current,24.15,3.5,158,0
+Patient_388,Female,29.0,0,0,never,41.65,6.5,140,0
+Patient_389,Female,52.0,0,0,current,22.51,5.0,145,0
+Patient_390,Male,61.0,0,0,never,23.47,6.6,130,0
+Patient_391,Male,80.0,0,0,not current,27.04,6.2,80,0
+Patient_392,Female,31.0,0,0,never,21.3,5.8,159,0
+Patient_393,Female,27.0,0,0,never,29.3,6.1,130,0
+Patient_394,Female,69.0,0,0,former,31.17,9.0,260,1
+Patient_395,Female,54.0,0,0,never,43.79,6.6,140,0
+Patient_396,Female,16.0,0,0,current,20.59,6.5,145,0
+Patient_397,Male,47.0,0,0,ever,48.2,5.7,100,0
+Patient_398,Female,40.0,0,0,never,27.63,6.5,126,0
+Patient_399,Male,19.0,0,0,never,20.8,4.0,100,0
+Patient_400,Female,59.0,0,1,never,60.26,8.8,145,1
+Patient_401,Female,16.0,0,0,never,21.43,3.5,145,0
+Patient_402,Female,36.0,0,0,never,39.46,5.8,100,0
+Patient_403,Male,70.0,0,0,current,27.32,6.1,160,0
+Patient_404,Male,14.0,0,0,never,19.52,6.5,85,0
+Patient_405,Female,13.0,0,0,never,21.88,6.1,200,0
+Patient_406,Female,47.0,0,0,never,27.22,6.0,145,0
+Patient_407,Male,43.0,1,0,not current,40.86,6.6,159,1
+Patient_408,Female,44.0,0,0,never,37.2,5.7,145,0
+Patient_409,Male,43.0,0,0,never,37.16,6.0,160,0
+Patient_410,Female,65.0,0,0,never,20.28,5.8,80,0
+Patient_411,Female,18.0,0,0,never,33.04,3.5,145,0
+Patient_412,Male,43.0,0,0,never,22.84,5.0,80,0
+Patient_413,Male,5.0,0,0,never,17.3,5.0,130,0
+Patient_414,Female,38.0,0,0,never,20.24,5.8,159,0
+Patient_415,Female,29.0,0,0,never,29.98,4.8,90,0
+Patient_416,Male,80.0,0,0,former,27.32,5.8,100,0
+Patient_417,Male,67.0,0,0,ever,25.9,4.5,85,0
+Patient_418,Female,37.0,0,0,former,33.83,3.5,100,0
+Patient_419,Female,29.0,0,0,never,18.97,6.2,100,0
+Patient_420,Male,25.0,0,0,never,27.32,6.5,158,0
+Patient_421,Female,45.0,0,0,current,35.63,6.1,158,0
+Patient_422,Female,68.0,1,0,never,24.35,6.2,85,0
+Patient_423,Male,47.0,0,0,never,27.32,4.8,155,0
+Patient_424,Female,73.0,0,0,never,35.56,5.8,260,1
+Patient_425,Female,20.0,0,0,never,22.32,3.5,126,0
+Patient_426,Male,41.0,0,0,never,35.75,5.0,140,0
+Patient_427,Female,39.0,0,0,not current,44.38,6.2,90,0
+Patient_428,Male,80.0,0,0,ever,29.54,6.0,100,0
+Patient_429,Male,31.0,0,0,never,42.57,4.5,145,0
+Patient_430,Male,55.0,0,0,never,27.7,5.0,155,0
+Patient_431,Female,51.0,0,0,never,31.99,4.8,130,0
+Patient_432,Male,40.0,0,0,current,25.52,4.0,158,0
+Patient_433,Male,41.0,0,0,never,28.66,5.0,126,0
+Patient_434,Male,53.0,0,0,current,38.5,3.5,130,0
+Patient_435,Male,52.0,0,0,never,25.34,5.8,130,0
+Patient_436,Female,29.0,0,0,current,31.72,3.5,130,0
+Patient_437,Female,43.0,0,0,never,29.02,6.5,200,0
+Patient_438,Female,73.0,0,0,never,27.32,5.8,130,0
+Patient_439,Male,46.0,0,0,never,27.32,6.6,159,1
+Patient_440,Female,50.0,0,0,never,21.03,5.0,126,0
+Patient_441,Male,72.0,1,1,never,28.94,6.2,160,0
+Patient_442,Male,42.0,1,0,former,30.38,5.8,160,0
+Patient_443,Female,42.0,0,0,never,37.3,4.8,126,0
+Patient_444,Female,59.0,0,0,former,43.41,6.2,160,1
+Patient_445,Female,39.0,0,0,current,34.24,3.5,126,0
+Patient_446,Male,24.0,0,0,never,23.48,4.5,126,0
+Patient_447,Female,18.0,0,0,not current,27.32,6.6,85,0
+Patient_448,Male,46.0,0,0,current,27.59,6.5,160,0
+Patient_449,Female,47.0,0,0,current,23.97,6.1,145,0
+Patient_450,Female,20.0,0,0,current,28.48,6.5,155,0
+Patient_451,Female,39.0,0,0,ever,22.21,5.8,158,0
+Patient_452,Male,29.0,0,0,former,33.08,3.5,160,0
+Patient_453,Female,80.0,0,0,never,27.32,6.0,200,1
+Patient_454,Female,62.0,0,0,ever,27.27,5.8,130,0
+Patient_455,Female,53.0,0,0,ever,42.4,6.1,145,0
+Patient_456,Female,55.0,0,0,never,35.42,6.5,140,0
+Patient_457,Female,64.0,0,0,ever,49.27,8.2,140,1
+Patient_458,Female,40.0,0,0,never,31.16,6.6,159,1
+Patient_459,Male,80.0,1,0,not current,23.46,4.8,160,0
+Patient_460,Male,64.0,0,0,never,39.0,8.8,220,1
+Patient_461,Male,38.0,0,0,never,23.87,6.5,158,0
+Patient_462,Female,36.0,0,0,ever,29.44,6.1,155,0
+Patient_463,Female,27.0,0,0,not current,21.75,5.7,90,0
+Patient_464,Female,53.0,0,0,never,27.32,5.0,85,0
+Patient_465,Male,31.0,0,0,never,28.51,4.8,158,0
+Patient_466,Male,59.0,0,0,current,27.32,4.8,155,0
+Patient_467,Male,45.0,0,0,never,28.72,4.8,158,0
+Patient_468,Female,74.0,1,0,former,26.91,4.8,158,0
+Patient_469,Female,24.0,0,0,ever,34.63,6.2,158,0
+Patient_470,Female,55.0,0,0,never,27.32,5.0,90,0
+Patient_471,Female,59.0,0,0,ever,24.33,6.6,145,0
+Patient_472,Female,64.0,0,0,never,27.32,6.0,145,0
+Patient_473,Male,70.0,1,0,never,27.32,4.5,158,0
+Patient_474,Female,38.0,1,0,not current,27.32,6.1,160,1
+Patient_475,Male,45.0,1,0,never,25.44,4.8,100,0
+Patient_476,Female,25.0,0,0,current,18.1,3.5,159,0
+Patient_477,Male,18.0,0,0,never,23.33,5.7,90,0
+Patient_478,Male,75.0,0,0,never,22.43,7.0,160,1
+Patient_479,Male,80.0,0,0,never,22.96,6.0,80,0
+Patient_480,Female,80.0,1,1,former,24.1,6.2,155,0
+Patient_481,Female,33.0,0,0,never,23.97,4.0,159,0
+Patient_482,Male,39.0,0,0,never,29.26,6.0,145,0
+Patient_483,Female,70.0,0,0,not current,24.7,6.6,145,0
+Patient_484,Male,62.0,0,0,not current,32.19,5.8,300,1
+Patient_485,Female,22.0,0,0,current,31.59,6.1,80,0
+Patient_486,Female,60.0,0,0,never,30.58,4.8,80,0
+Patient_487,Female,51.0,1,0,former,22.31,6.2,85,0
+Patient_488,Female,28.0,1,0,never,20.09,6.6,200,1
+Patient_489,Female,45.0,0,0,current,27.32,4.5,158,0
+Patient_490,Male,19.0,0,0,never,42.0,3.5,80,0
+Patient_491,Female,30.0,0,0,former,26.2,6.6,160,0
+Patient_492,Male,42.0,0,0,current,29.95,4.5,145,0
+Patient_493,Male,9.0,0,0,never,16.5,4.8,100,0
+Patient_494,Male,59.0,1,0,ever,25.94,9.0,140,1
+Patient_495,Female,66.0,0,0,former,37.2,5.7,159,1
+Patient_496,Male,15.0,0,0,never,25.39,3.5,145,0
+Patient_497,Female,21.0,0,0,ever,27.32,3.5,160,0
+Patient_498,Female,23.0,0,0,never,27.32,6.0,140,0
+Patient_499,Female,28.0,0,0,never,20.95,6.2,80,0
+Patient_500,Female,75.0,0,0,former,27.32,3.5,126,0
+Patient_501,Male,65.0,0,0,former,33.7,6.2,159,0
+Patient_502,Female,41.0,0,0,never,34.17,4.8,159,0
+Patient_503,Female,39.0,0,0,never,27.52,6.1,159,0
+Patient_504,Female,39.0,0,0,never,27.73,8.8,145,1
+Patient_505,Female,51.0,0,0,former,27.32,6.1,158,0
+Patient_506,Female,51.0,0,0,never,42.54,6.5,158,0
+Patient_507,Female,77.0,0,0,former,23.5,4.5,158,0
+Patient_508,Female,41.0,0,0,never,21.33,4.8,85,0
+Patient_509,Female,25.0,0,0,not current,35.1,6.5,90,0
+Patient_510,Female,62.0,0,0,never,26.46,6.2,85,0
+Patient_511,Female,4.0,0,0,never,21.72,6.6,90,0
+Patient_512,Female,2.0,0,0,never,27.32,3.5,155,0
+Patient_513,Female,48.0,0,0,never,22.29,4.0,158,0
+Patient_514,Female,34.0,0,0,never,30.84,6.1,130,0
+Patient_515,Female,27.0,0,0,never,19.34,6.6,85,0
+Patient_516,Female,54.0,1,0,current,28.42,4.8,80,0
+Patient_517,Female,55.0,0,0,former,27.32,5.7,126,0
+Patient_518,Female,41.0,0,0,not current,27.32,4.0,145,0
+Patient_519,Female,30.0,0,0,never,25.63,5.7,160,0
+Patient_520,Female,72.0,0,0,former,27.39,3.5,85,0
+Patient_521,Male,80.0,0,1,former,32.95,6.0,130,1
+Patient_522,Female,25.0,0,0,never,27.32,6.1,85,0
+Patient_523,Female,49.0,0,0,current,24.46,5.0,140,0
+Patient_524,Male,58.0,0,0,ever,19.46,9.0,130,1
+Patient_525,Female,78.0,0,0,never,25.97,5.7,159,0
+Patient_526,Female,32.0,0,0,never,25.15,6.5,155,0
+Patient_527,Female,57.0,0,0,former,20.4,4.5,160,0
+Patient_528,Male,1.24,0,0,never,18.42,4.0,126,0
+Patient_529,Female,75.0,0,0,never,33.45,5.0,80,0
+Patient_530,Female,31.0,0,0,not current,25.46,4.5,80,0
+Patient_531,Female,57.0,0,0,ever,18.48,4.5,155,0
+Patient_532,Male,20.0,0,0,former,20.3,6.6,158,0
+Patient_533,Female,29.0,0,0,current,37.13,3.5,140,0
+Patient_534,Male,69.0,1,0,never,44.5,6.2,145,0
+Patient_535,Female,51.0,0,0,never,27.32,5.0,160,0
+Patient_536,Female,5.0,0,0,never,16.22,4.5,85,0
+Patient_537,Male,67.0,0,0,not current,30.21,5.8,145,0
+Patient_538,Male,39.0,0,0,current,27.04,6.1,140,0
+Patient_539,Male,47.0,0,0,never,30.09,4.8,90,0
+Patient_540,Male,38.0,0,0,never,33.72,5.0,200,0
+Patient_541,Female,24.0,0,0,ever,26.04,6.1,90,0
+Patient_542,Female,46.0,0,0,current,23.47,5.0,100,0
+Patient_543,Male,57.0,0,0,not current,23.48,4.5,130,0
+Patient_544,Female,44.0,0,0,never,27.32,6.2,158,0
+Patient_545,Female,39.0,0,0,never,27.32,4.5,200,0
+Patient_546,Female,60.0,0,0,not current,27.32,4.0,130,0
+Patient_547,Female,31.0,0,0,never,22.66,4.0,126,0
+Patient_548,Female,80.0,0,0,never,20.93,5.0,90,0
+Patient_549,Female,51.0,0,0,never,34.54,6.5,160,0
+Patient_550,Female,16.0,0,0,never,36.61,6.2,80,0
+Patient_551,Female,40.0,0,0,not current,28.96,6.0,90,0
+Patient_552,Female,62.0,0,0,never,26.6,6.1,160,0
+Patient_553,Male,58.0,0,0,not current,25.23,4.0,85,0
+Patient_554,Female,22.0,0,0,ever,22.65,4.8,159,0
+Patient_555,Male,49.0,0,0,not current,27.32,5.8,200,0
+Patient_556,Female,57.0,1,0,never,23.29,5.8,145,0
+Patient_557,Female,58.0,0,0,never,26.12,4.8,140,0
+Patient_558,Female,37.0,0,0,never,24.96,6.2,158,0
+Patient_559,Male,26.0,0,0,never,37.9,6.1,130,0
+Patient_560,Female,70.0,0,0,never,19.82,6.1,200,0
+Patient_561,Female,47.0,0,0,never,25.76,4.0,200,0
+Patient_562,Female,20.0,0,0,never,27.32,5.7,126,0
+Patient_563,Male,80.0,0,0,not current,22.94,6.6,145,0
+Patient_564,Female,34.0,0,0,current,27.32,4.5,155,0
+Patient_565,Female,59.0,1,0,not current,29.28,3.5,158,0
+Patient_566,Female,76.0,0,0,never,29.79,6.0,90,0
+Patient_567,Male,42.0,0,0,current,26.47,6.2,159,0
+Patient_568,Male,1.88,0,0,never,19.97,5.0,126,0
+Patient_569,Male,55.0,1,0,not current,28.19,5.8,100,0
+Patient_570,Female,35.0,0,0,former,36.87,6.6,85,0
+Patient_571,Female,59.0,1,0,not current,20.51,5.8,145,0
+Patient_572,Male,36.0,0,0,never,36.4,4.8,126,0
+Patient_573,Female,48.0,0,0,never,27.32,3.5,200,0
+Patient_574,Female,53.0,0,0,current,27.02,6.6,159,0
+Patient_575,Female,62.0,1,0,not current,27.32,6.1,130,0
+Patient_576,Male,71.0,0,0,not current,25.95,4.5,155,0
+Patient_577,Female,63.0,0,0,current,37.53,4.8,90,0
+Patient_578,Female,54.0,0,0,current,27.32,6.5,160,0
+Patient_579,Female,20.0,0,0,former,33.56,6.5,85,0
+Patient_580,Female,48.0,0,0,ever,31.25,6.2,240,1
+Patient_581,Female,49.0,0,0,never,27.0,4.5,126,0
+Patient_582,Male,27.0,1,0,never,36.01,3.5,159,0
+Patient_583,Female,68.0,0,0,former,27.98,6.0,159,0
+Patient_584,Female,36.0,0,0,never,32.44,5.8,140,0
+Patient_585,Female,59.0,0,0,never,22.36,6.2,158,0
+Patient_586,Female,38.0,0,0,former,29.64,6.0,85,0
+Patient_587,Female,34.0,0,0,ever,26.15,6.0,126,0
+Patient_588,Male,53.0,0,0,never,27.32,5.0,80,0
+Patient_589,Female,48.0,0,0,former,29.15,6.2,80,0
+Patient_590,Male,42.0,0,0,current,27.32,6.5,130,0
+Patient_591,Male,65.0,0,0,not current,34.13,6.0,126,0
+Patient_592,Female,80.0,0,0,never,27.32,6.2,140,0
+Patient_593,Male,44.0,0,0,never,27.32,5.8,90,0
+Patient_594,Male,75.0,0,0,current,24.92,6.2,126,0
+Patient_595,Female,31.0,0,0,never,27.32,6.0,158,0
+Patient_596,Female,62.0,0,1,never,42.48,5.8,159,0
+Patient_597,Male,34.0,0,0,former,25.76,5.8,126,0
+Patient_598,Female,53.0,0,0,ever,35.83,5.0,85,0
+Patient_599,Female,33.0,0,0,never,22.14,3.5,130,0
+Patient_600,Male,51.0,0,0,ever,22.4,6.5,200,0
+Patient_601,Female,53.0,0,0,never,27.32,6.6,155,1
+Patient_602,Male,62.0,0,0,ever,24.46,4.0,140,0
+Patient_603,Female,71.0,0,0,never,38.36,4.5,200,0
+Patient_604,Male,53.0,0,0,former,39.9,8.8,126,1
+Patient_605,Male,65.0,0,1,former,30.41,4.8,158,0
+Patient_606,Female,42.0,0,0,never,23.5,6.2,80,0
+Patient_607,Female,16.0,0,0,not current,22.13,6.6,90,0
+Patient_608,Female,71.0,0,0,former,22.46,4.8,90,0
+Patient_609,Female,63.0,0,0,never,21.13,6.0,126,0
+Patient_610,Female,63.0,0,0,never,27.32,3.5,160,0
+Patient_611,Male,49.0,0,0,never,27.32,6.5,300,1
+Patient_612,Female,80.0,0,1,never,15.06,6.6,140,0
+Patient_613,Male,5.0,0,0,never,16.87,6.5,85,0
+Patient_614,Female,53.0,0,0,never,27.32,6.1,90,0
+Patient_615,Female,33.0,0,0,never,28.87,6.6,85,0
+Patient_616,Female,67.0,0,0,never,27.32,5.8,280,1
+Patient_617,Male,35.0,0,0,never,25.76,5.0,158,0
+Patient_618,Male,80.0,0,1,former,25.7,4.5,130,0
+Patient_619,Female,44.0,0,0,former,17.07,6.1,160,0
+Patient_620,Male,80.0,0,0,former,23.48,5.7,100,0
+Patient_621,Male,55.0,0,0,never,27.32,6.0,90,0
+Patient_622,Female,12.0,0,0,never,20.78,6.5,130,0
+Patient_623,Male,53.0,0,0,current,28.75,5.0,85,0
+Patient_624,Female,50.0,0,0,never,26.39,6.6,158,0
+Patient_625,Female,16.0,0,0,never,24.38,4.8,90,0
+Patient_626,Female,80.0,0,0,never,25.04,6.5,100,0
+Patient_627,Female,34.0,0,0,current,21.6,5.7,130,0
+Patient_628,Male,49.0,0,0,never,27.6,6.1,85,0
+Patient_629,Female,80.0,1,0,never,23.28,3.5,155,0
+Patient_630,Male,33.0,0,0,current,27.12,4.0,85,0
+Patient_631,Male,50.0,0,0,former,25.84,6.6,80,0
+Patient_632,Female,60.0,0,0,current,29.92,6.0,140,0
+Patient_633,Male,32.0,0,0,current,26.97,6.6,85,0
+Patient_634,Male,16.0,0,0,never,18.49,5.7,200,0
+Patient_635,Female,44.0,1,0,former,36.8,6.5,126,1
+Patient_636,Male,71.0,0,0,never,25.77,6.1,200,0
+Patient_637,Female,51.0,0,0,never,31.94,5.7,155,0
+Patient_638,Female,44.0,0,1,never,54.12,3.5,140,0
+Patient_639,Female,75.0,1,0,never,22.64,4.0,130,0
+Patient_640,Female,22.0,0,0,ever,20.94,4.0,200,0
+Patient_641,Male,80.0,0,0,never,24.27,5.7,158,0
+Patient_642,Male,60.0,0,0,never,33.63,5.7,155,0
+Patient_643,Male,12.0,0,0,never,17.37,4.8,158,0
+Patient_644,Female,80.0,0,1,never,16.3,6.2,140,0
+Patient_645,Female,19.0,0,0,never,30.45,4.8,130,0
+Patient_646,Male,62.0,0,0,never,29.26,5.0,200,0
+Patient_647,Male,21.0,0,0,never,31.44,6.2,85,0
+Patient_648,Male,45.0,0,1,current,38.25,6.1,140,0
+Patient_649,Female,43.0,0,0,never,27.32,6.6,130,1
+Patient_650,Female,18.0,0,0,never,30.28,3.5,90,0
+Patient_651,Male,47.0,0,0,never,30.54,4.5,160,0
+Patient_652,Male,18.0,0,0,never,21.9,6.2,80,0
+Patient_653,Female,38.0,0,0,never,34.42,8.2,280,1
+Patient_654,Male,61.0,0,0,never,30.83,5.0,126,0
+Patient_655,Male,53.0,0,0,former,27.32,6.1,158,0
+Patient_656,Male,60.0,1,0,never,36.96,3.5,160,0
+Patient_657,Female,59.0,0,0,not current,31.34,6.0,130,0
+Patient_658,Male,66.0,0,0,never,29.01,4.0,85,0
+Patient_659,Female,80.0,0,0,not current,24.5,5.8,126,0
+Patient_660,Female,70.0,1,0,never,27.02,3.5,90,0
+Patient_661,Male,59.0,0,1,never,27.32,3.5,160,0
+Patient_662,Male,80.0,0,0,former,26.49,5.8,80,0
+Patient_663,Female,43.0,0,0,never,24.44,6.6,140,0
+Patient_664,Female,48.0,0,0,current,25.15,6.0,85,0
+Patient_665,Female,29.0,0,0,never,22.46,6.0,80,0
+Patient_666,Female,62.0,1,1,former,44.23,8.2,145,1
+Patient_667,Male,20.0,0,0,not current,22.04,6.5,126,0
+Patient_668,Female,36.0,0,0,current,26.15,3.5,85,0
+Patient_669,Male,62.0,0,0,never,26.06,4.0,160,0
+Patient_670,Female,46.0,0,0,current,37.24,5.7,85,0
+Patient_671,Female,20.0,0,0,not current,21.35,3.5,100,0
+Patient_672,Female,28.0,0,0,never,26.17,6.6,145,0
+Patient_673,Male,28.0,0,0,never,27.32,3.5,80,0
+Patient_674,Female,50.0,0,0,never,33.58,6.2,126,0
+Patient_675,Male,66.0,0,1,current,20.91,4.0,90,0
+Patient_676,Female,27.0,0,0,never,27.32,4.8,158,0
+Patient_677,Female,49.0,0,0,ever,27.32,6.1,80,0
+Patient_678,Male,38.0,0,0,current,24.2,5.7,300,1
+Patient_679,Female,61.0,0,1,current,27.19,3.5,100,0
+Patient_680,Female,55.0,0,0,current,27.32,4.5,130,0
+Patient_681,Female,35.0,0,0,never,23.0,6.6,85,0
+Patient_682,Female,26.0,0,0,never,19.51,4.8,158,0
+Patient_683,Female,65.0,0,0,former,24.9,5.8,80,0
+Patient_684,Female,24.0,0,0,former,20.47,4.8,100,0
+Patient_685,Female,75.0,0,0,never,21.3,6.0,158,0
+Patient_686,Female,35.0,0,0,never,27.34,6.5,145,0
+Patient_687,Female,24.0,0,0,never,21.79,6.2,140,0
+Patient_688,Female,80.0,0,0,never,27.32,4.5,90,0
+Patient_689,Female,25.0,0,0,never,22.84,4.0,145,0
+Patient_690,Male,42.0,0,0,never,27.32,6.0,160,0
+Patient_691,Male,54.0,0,0,former,23.1,5.8,90,0
+Patient_692,Male,75.0,0,0,former,30.65,4.0,155,0
+Patient_693,Female,63.0,0,0,never,31.82,4.0,160,0
+Patient_694,Male,72.0,0,0,not current,20.04,6.2,90,0
+Patient_695,Female,52.0,0,0,never,34.0,6.0,160,0
+Patient_696,Female,23.0,0,0,current,24.37,6.0,140,0
+Patient_697,Female,53.0,1,0,never,41.76,6.8,300,1
+Patient_698,Female,58.0,0,0,current,27.32,6.5,158,0
+Patient_699,Female,36.0,1,0,never,40.81,3.5,145,0
+Patient_700,Female,28.0,0,0,never,23.04,4.0,200,0
+Patient_701,Female,33.0,0,0,never,24.76,4.0,160,0
+Patient_702,Male,36.0,0,0,never,25.94,6.6,145,0
+Patient_703,Female,17.0,0,0,never,28.15,6.0,100,0
+Patient_704,Male,50.0,0,0,never,49.0,5.0,145,0
+Patient_705,Male,58.0,0,0,current,28.4,4.8,160,0
+Patient_706,Female,45.0,0,0,never,34.09,5.7,90,0
+Patient_707,Male,60.0,0,0,not current,31.79,6.0,85,0
+Patient_708,Male,56.0,0,0,former,34.57,4.0,158,0
+Patient_709,Female,43.0,0,0,never,36.31,4.8,85,0
+Patient_710,Male,31.0,0,0,ever,22.9,6.2,155,0
+Patient_711,Female,53.0,0,0,never,31.4,5.7,85,0
+Patient_712,Female,35.0,0,0,ever,31.56,6.2,160,0
+Patient_713,Female,71.0,0,0,not current,37.07,5.7,200,0
+Patient_714,Male,31.0,0,0,never,27.01,5.0,145,0
+Patient_715,Female,35.0,0,0,never,27.32,4.8,130,0
+Patient_716,Female,47.0,1,0,never,36.03,5.7,80,0
+Patient_717,Female,36.0,0,0,never,27.7,6.5,200,0
+Patient_718,Female,27.0,0,0,never,28.45,6.6,200,0
+Patient_719,Female,24.0,0,0,not current,27.32,4.0,130,0
+Patient_720,Female,72.0,0,0,former,32.89,5.7,200,0
+Patient_721,Female,38.0,0,0,never,27.32,6.1,130,0
+Patient_722,Male,59.0,1,0,never,23.55,5.7,300,1
+Patient_723,Male,80.0,0,1,former,27.32,4.0,130,0
+Patient_724,Female,39.0,0,0,never,21.06,4.5,100,0
+Patient_725,Male,76.0,0,1,former,34.8,4.0,145,0
+Patient_726,Male,38.0,0,0,current,27.4,4.8,140,0
+Patient_727,Male,46.0,0,0,current,25.98,4.5,160,0
+Patient_728,Female,34.0,0,0,ever,20.98,5.0,160,0
+Patient_729,Male,23.0,0,0,never,27.32,6.1,85,0
+Patient_730,Female,78.0,1,0,ever,32.92,7.5,126,1
+Patient_731,Male,13.0,0,0,never,15.45,5.0,160,0
+Patient_732,Female,29.0,0,0,former,10.77,5.7,140,0
+Patient_733,Female,62.0,1,1,never,43.16,8.8,280,1
+Patient_734,Female,28.0,0,0,current,27.32,6.2,140,0
+Patient_735,Male,67.0,0,0,ever,38.0,6.2,200,1
+Patient_736,Female,54.0,1,0,never,22.48,9.0,126,1
+Patient_737,Female,43.0,0,0,not current,25.84,4.0,155,0
+Patient_738,Male,20.0,0,0,never,18.75,6.6,100,0
+Patient_739,Male,50.0,0,0,former,32.26,4.0,155,0
+Patient_740,Male,67.0,1,1,former,35.44,4.8,126,0
+Patient_741,Female,24.0,0,0,ever,27.32,6.2,155,0
+Patient_742,Female,72.0,0,0,never,17.84,5.7,200,0
+Patient_743,Female,56.0,0,0,former,23.32,3.5,90,0
+Patient_744,Male,36.0,0,0,never,27.32,5.8,85,0
+Patient_745,Male,29.0,0,0,ever,27.32,4.8,159,0
+Patient_746,Female,33.0,0,0,never,22.71,3.5,130,0
+Patient_747,Female,45.0,0,0,former,27.32,5.8,158,0
+Patient_748,Female,60.0,0,0,former,23.88,6.5,200,0
+Patient_749,Female,25.0,0,0,not current,27.43,4.5,158,0
+Patient_750,Male,16.0,0,0,never,34.09,6.5,145,0
+Patient_751,Male,78.0,1,0,never,27.77,6.1,126,0
+Patient_752,Male,63.0,0,0,never,43.75,6.8,220,1
+Patient_753,Female,60.0,0,0,former,25.2,6.6,130,0
+Patient_754,Male,50.0,1,0,not current,25.49,6.1,260,1
+Patient_755,Female,80.0,0,0,not current,27.32,6.6,126,0
+Patient_756,Female,74.0,0,0,former,40.5,3.5,160,0
+Patient_757,Female,16.0,0,0,never,28.07,6.5,140,0
+Patient_758,Male,9.0,0,0,never,15.86,6.6,145,0
+Patient_759,Female,13.0,0,0,never,24.06,6.6,85,0
+Patient_760,Female,49.0,0,0,never,24.67,4.0,130,0
+Patient_761,Male,63.0,0,0,current,32.57,6.0,140,0
+Patient_762,Female,49.0,0,0,never,27.32,5.7,159,0
+Patient_763,Male,49.0,0,1,current,27.94,5.7,160,0
+Patient_764,Female,19.0,0,0,never,17.64,6.5,145,0
+Patient_765,Male,24.0,0,0,never,25.95,5.0,155,0
+Patient_766,Male,21.0,0,0,current,32.0,6.6,159,0
+Patient_767,Male,79.0,0,0,former,29.29,3.5,85,0
+Patient_768,Female,41.0,0,0,not current,27.0,5.0,200,0
+Patient_769,Female,70.0,0,0,former,35.15,6.0,200,1
+Patient_770,Female,24.0,0,0,never,26.21,6.5,85,0
+Patient_771,Female,35.0,0,0,never,27.32,5.8,159,0
+Patient_772,Male,40.0,1,0,former,26.42,6.1,90,0
+Patient_773,Female,73.0,1,0,former,33.6,3.5,126,0
+Patient_774,Male,39.0,0,0,never,31.7,4.8,90,0
+Patient_775,Female,35.0,0,0,former,27.32,6.6,90,0
+Patient_776,Male,24.0,0,0,never,19.87,6.5,159,0
+Patient_777,Female,63.0,0,0,never,34.15,7.5,240,1
+Patient_778,Male,47.0,0,0,never,25.8,6.6,145,0
+Patient_779,Male,53.0,0,1,former,22.46,3.5,126,0
+Patient_780,Male,65.0,0,0,current,23.33,3.5,160,0
+Patient_781,Female,18.0,0,0,never,26.29,5.0,85,0
+Patient_782,Female,51.0,0,0,ever,33.41,5.0,160,0
+Patient_783,Female,57.0,0,0,former,20.66,5.7,155,0
+Patient_784,Male,65.0,1,0,former,22.06,9.0,300,1
+Patient_785,Male,30.0,1,0,former,57.17,5.8,300,1
+Patient_786,Male,52.0,0,0,former,27.32,6.6,140,0
+Patient_787,Female,29.0,0,0,never,29.28,6.2,80,0
+Patient_788,Male,43.0,0,0,never,27.32,6.2,90,0
+Patient_789,Female,39.0,0,0,never,30.0,6.6,200,0
+Patient_790,Female,27.0,0,0,never,23.37,4.8,130,0
+Patient_791,Male,80.0,0,0,never,29.64,4.0,140,0
+Patient_792,Female,25.0,0,0,ever,31.61,6.5,130,0
+Patient_793,Female,55.0,0,0,current,22.76,4.8,80,0
+Patient_794,Female,42.0,0,0,current,24.38,6.2,200,0
+Patient_795,Male,51.0,1,0,never,45.7,9.0,159,1
+Patient_796,Male,65.0,0,0,never,28.94,5.0,160,0
+Patient_797,Male,50.0,0,0,never,27.32,6.1,145,0
+Patient_798,Female,46.0,0,0,current,19.81,5.7,160,0
+Patient_799,Female,63.0,0,0,never,19.46,4.0,160,0
+Patient_800,Male,76.0,0,0,former,27.76,6.5,158,0
+Patient_801,Male,20.0,0,0,former,21.79,6.2,200,0
+Patient_802,Male,40.0,0,0,never,37.72,4.8,130,0
+Patient_803,Female,20.0,0,0,ever,40.01,4.0,90,0
+Patient_804,Male,35.0,0,0,never,45.03,6.1,200,0
+Patient_805,Female,17.0,0,0,never,23.95,3.5,159,0
+Patient_806,Male,56.0,0,0,former,39.2,6.1,126,0
+Patient_807,Female,40.0,0,0,never,44.24,6.2,140,0
+Patient_808,Female,51.0,0,0,former,25.76,6.0,155,0
+Patient_809,Male,5.0,0,0,not current,27.32,4.5,158,0
+Patient_810,Male,39.0,0,0,current,27.32,6.5,145,0
+Patient_811,Female,33.0,0,0,current,21.78,5.0,90,0
+Patient_812,Male,31.0,0,0,current,48.61,6.6,160,0
+Patient_813,Male,20.0,0,0,current,23.32,3.5,126,0
+Patient_814,Female,49.0,0,0,current,27.45,7.0,155,1
+Patient_815,Female,54.0,0,0,current,27.32,4.5,100,0
+Patient_816,Female,78.0,0,1,former,20.98,5.8,160,0
+Patient_817,Female,29.0,0,0,never,25.68,5.8,100,0
+Patient_818,Female,38.0,0,0,never,23.43,5.0,130,0
+Patient_819,Female,80.0,0,0,never,23.8,6.5,158,0
+Patient_820,Female,68.0,0,0,former,27.32,4.0,145,0
+Patient_821,Male,14.0,0,0,never,23.9,4.0,140,0
+Patient_822,Female,45.0,0,0,not current,37.02,6.1,130,0
+Patient_823,Female,76.0,0,1,former,25.68,9.0,260,1
+Patient_824,Female,56.0,1,0,former,27.92,6.2,85,0
+Patient_825,Female,12.0,0,0,not current,17.09,5.0,130,0
+Patient_826,Female,67.0,1,1,current,28.52,6.5,200,1
+Patient_827,Female,77.0,0,0,never,32.9,6.8,126,1
+Patient_828,Female,47.0,0,0,ever,28.35,6.2,90,0
+Patient_829,Female,59.0,0,0,current,25.19,6.6,80,0
+Patient_830,Male,29.0,0,0,never,50.36,6.0,155,0
+Patient_831,Male,24.0,0,0,never,22.36,5.8,140,0
+Patient_832,Male,37.0,1,0,never,30.23,6.1,158,0
+Patient_833,Female,60.0,0,0,not current,27.32,6.6,159,0
+Patient_834,Female,32.0,0,0,not current,27.32,6.5,140,0
+Patient_835,Female,28.0,0,0,current,24.41,3.5,145,0
+Patient_836,Female,32.0,0,0,never,26.83,6.6,155,0
+Patient_837,Female,25.0,0,0,former,25.77,5.0,130,0
+Patient_838,Male,20.0,1,0,never,27.32,4.5,90,0
+Patient_839,Male,44.0,0,0,former,36.73,5.8,140,0
+Patient_840,Male,52.0,0,0,former,38.66,6.1,158,0
+Patient_841,Female,34.0,0,0,current,26.78,6.1,126,0
+Patient_842,Female,80.0,0,0,former,27.32,4.8,130,0
+Patient_843,Female,54.0,0,0,never,21.85,3.5,159,0
+Patient_844,Female,57.0,1,0,never,31.88,5.8,155,0
+Patient_845,Female,77.0,0,0,never,19.8,5.7,155,0
+Patient_846,Female,44.0,0,0,not current,27.32,3.5,200,0
+Patient_847,Male,61.0,0,0,not current,27.89,5.7,80,0
+Patient_848,Male,55.0,0,0,never,24.27,6.2,200,0
+Patient_849,Female,29.0,0,0,current,20.2,3.5,90,0
+Patient_850,Male,69.0,0,0,never,33.51,6.0,155,0
+Patient_851,Female,80.0,0,0,never,30.8,3.5,159,0
+Patient_852,Male,20.0,0,0,current,27.32,4.8,126,0
+Patient_853,Female,23.0,0,0,never,27.32,4.5,90,0
+Patient_854,Female,20.0,0,0,never,27.32,6.1,200,0
+Patient_855,Female,42.0,0,0,never,27.32,4.5,160,0
+Patient_856,Female,24.0,0,0,never,25.9,6.1,145,0
+Patient_857,Female,69.0,0,0,never,27.32,3.5,160,0
+Patient_858,Male,60.0,0,0,current,30.98,8.8,260,1
+Patient_859,Female,57.0,0,0,never,24.99,6.6,130,0
+Patient_860,Female,28.0,0,0,ever,33.37,6.2,155,0
+Patient_861,Female,26.0,0,0,never,32.6,6.2,80,0
+Patient_862,Female,67.0,0,0,not current,31.27,6.2,80,0
+Patient_863,Female,15.0,0,0,never,28.96,6.0,200,0
+Patient_864,Male,4.0,0,0,never,27.32,5.0,145,0
+Patient_865,Male,59.0,0,0,never,24.2,4.8,126,0
+Patient_866,Male,55.0,0,0,never,27.19,6.1,140,0
+Patient_867,Female,57.0,0,0,current,40.67,4.5,130,0
+Patient_868,Male,69.0,0,0,never,33.84,6.2,126,1
+Patient_869,Male,43.0,0,0,current,29.83,5.0,80,0
+Patient_870,Female,17.0,0,0,ever,31.48,6.0,155,0
+Patient_871,Female,66.0,0,0,never,36.06,7.5,300,1
+Patient_872,Male,80.0,0,0,former,29.16,8.8,140,1
+Patient_873,Female,33.0,0,0,never,27.32,4.0,140,0
+Patient_874,Male,77.0,0,0,former,29.4,8.8,300,1
+Patient_875,Female,80.0,0,0,former,27.32,6.1,100,0
+Patient_876,Male,40.0,0,0,never,29.1,5.0,159,0
+Patient_877,Female,47.0,0,0,current,38.04,9.0,155,1
+Patient_878,Male,57.0,0,0,never,26.36,5.8,126,0
+Patient_879,Female,80.0,1,0,never,28.12,5.8,145,0
+Patient_880,Female,30.0,0,0,never,27.32,5.8,160,0
+Patient_881,Female,55.0,1,0,never,26.17,4.0,80,0
+Patient_882,Female,67.0,0,0,current,24.21,6.0,126,0
+Patient_883,Female,27.0,0,0,never,27.18,4.5,126,0
+Patient_884,Male,66.0,0,0,never,36.09,3.5,158,0
+Patient_885,Female,66.0,0,0,ever,20.75,6.5,100,0
+Patient_886,Male,33.0,0,0,former,27.32,4.8,145,0
+Patient_887,Female,74.0,0,0,current,24.02,4.0,126,0
+Patient_888,Male,54.0,0,0,never,29.05,4.5,140,0
+Patient_889,Female,56.0,0,0,former,33.3,5.8,145,0
+Patient_890,Male,53.0,0,0,not current,27.32,4.0,90,0
+Patient_891,Female,72.0,0,0,never,40.21,8.2,145,1
+Patient_892,Male,51.0,0,0,never,28.58,6.6,140,1
+Patient_893,Female,50.0,0,0,not current,21.64,5.7,280,1
+Patient_894,Female,73.0,0,0,current,38.91,6.5,260,1
+Patient_895,Female,60.0,1,0,current,60.2,7.0,200,1
+Patient_896,Female,67.0,0,0,never,28.3,4.0,126,0
+Patient_897,Female,21.0,0,0,not current,25.3,5.7,155,0
+Patient_898,Female,80.0,0,0,never,27.32,5.7,85,0
+Patient_899,Female,32.0,1,0,never,38.42,9.0,220,1
+Patient_900,Male,56.0,0,0,former,43.81,5.0,126,0
+Patient_901,Male,48.0,1,0,current,29.53,6.6,160,0
+Patient_902,Female,64.0,0,0,never,36.71,5.0,100,0
+Patient_903,Male,16.0,0,0,never,16.12,6.1,126,0
+Patient_904,Male,78.0,0,0,not current,34.27,5.0,80,0
+Patient_905,Male,80.0,0,1,never,28.66,5.7,126,1
+Patient_906,Female,9.0,0,0,never,17.9,5.7,85,0
+Patient_907,Female,46.0,0,0,never,21.94,4.8,159,0
+Patient_908,Male,18.0,0,0,never,21.13,4.0,130,0
+Patient_909,Male,58.0,1,0,former,25.71,4.0,158,0
+Patient_910,Female,35.0,0,0,never,27.32,6.2,159,0
+Patient_911,Female,78.0,0,0,former,31.15,5.7,130,0
+Patient_912,Female,31.0,0,0,never,29.23,4.8,90,0
+Patient_913,Female,43.0,0,0,never,30.06,6.0,158,0
+Patient_914,Female,25.0,0,0,former,20.67,5.0,158,0
+Patient_915,Male,24.0,0,0,ever,21.51,6.5,158,0
+Patient_916,Female,59.0,1,0,never,27.08,7.5,126,1
+Patient_917,Female,77.0,0,0,never,28.42,3.5,100,0
+Patient_918,Male,80.0,0,1,never,25.53,5.0,160,0
+Patient_919,Female,66.0,0,0,never,20.98,6.5,145,0
+Patient_920,Male,78.0,0,0,former,26.31,6.1,159,0
+Patient_921,Male,36.0,0,0,never,24.89,6.2,155,0
+Patient_922,Female,56.0,0,0,never,40.0,6.6,158,0
+Patient_923,Female,36.0,0,0,never,37.2,4.8,85,0
+Patient_924,Female,80.0,0,0,never,20.27,3.5,100,0
+Patient_925,Male,11.0,0,0,not current,19.42,5.8,155,0
+Patient_926,Female,29.0,0,0,current,22.68,6.0,159,0
+Patient_927,Female,18.0,0,0,never,23.5,6.6,160,0
+Patient_928,Female,34.0,0,0,former,27.32,6.0,126,0
+Patient_929,Male,48.0,0,0,current,27.32,4.0,160,0
+Patient_930,Female,73.0,1,0,never,24.11,6.6,90,0
+Patient_931,Male,62.0,0,0,current,23.57,5.7,158,0
+Patient_932,Male,24.0,0,0,never,20.64,6.6,100,0
+Patient_933,Female,40.0,0,0,never,28.27,4.0,155,0
+Patient_934,Female,65.0,0,0,not current,38.24,4.0,158,0
+Patient_935,Male,36.0,0,0,former,27.32,6.5,90,0
+Patient_936,Female,46.0,0,0,never,48.57,5.8,159,0
+Patient_937,Male,23.0,0,0,never,22.59,6.5,80,0
+Patient_938,Female,42.0,0,0,current,27.32,7.5,130,1
+Patient_939,Male,68.0,1,0,former,28.58,8.8,140,1
+Patient_940,Female,37.0,0,0,never,38.97,6.0,90,0
+Patient_941,Female,56.0,0,0,not current,27.32,5.8,145,0
+Patient_942,Female,38.0,0,0,former,22.32,6.2,85,0
+Patient_943,Male,33.0,0,0,ever,19.8,5.7,100,0
+Patient_944,Female,35.0,0,0,never,27.32,4.0,200,0
+Patient_945,Male,53.0,0,0,never,24.96,6.1,158,0
+Patient_946,Female,27.0,0,0,never,23.2,4.5,200,0
+Patient_947,Male,55.0,0,0,never,30.34,3.5,158,0
+Patient_948,Male,38.0,0,0,not current,24.36,5.7,145,0
+Patient_949,Female,69.0,0,0,never,27.32,5.7,100,0
+Patient_950,Female,39.0,0,0,never,33.86,4.5,160,0
+Patient_951,Female,10.0,0,0,never,16.15,4.8,85,0
+Patient_952,Female,80.0,0,0,never,32.94,8.8,145,1
+Patient_953,Male,80.0,1,0,former,25.45,8.8,130,1
+Patient_954,Male,30.0,0,0,current,27.8,5.7,130,0
+Patient_955,Male,27.0,0,0,never,27.32,6.1,160,0
+Patient_956,Female,40.0,0,0,never,21.8,6.5,145,0
+Patient_957,Female,54.0,1,0,never,35.44,6.6,80,0
+Patient_958,Male,7.0,0,0,never,15.74,3.5,200,0
+Patient_959,Female,39.0,0,0,never,19.29,5.0,200,0
+Patient_960,Female,36.0,0,0,current,22.19,4.5,145,0
+Patient_961,Female,50.0,0,0,current,23.86,4.5,155,0
+Patient_962,Female,41.0,0,0,never,27.32,4.8,200,0
+Patient_963,Male,41.0,0,0,never,28.14,5.0,126,0
+Patient_964,Male,70.0,0,0,never,26.97,5.8,200,0
+Patient_965,Female,72.0,0,0,never,26.62,5.8,80,0
+Patient_966,Female,59.0,1,0,not current,26.17,3.5,90,0
+Patient_967,Female,51.0,0,0,not current,27.32,4.5,80,0
+Patient_968,Male,21.0,0,0,former,18.86,4.8,200,0
+Patient_969,Male,47.0,0,0,ever,27.83,4.8,158,0
+Patient_970,Female,21.0,0,0,current,25.44,4.5,158,0
+Patient_971,Male,32.0,0,0,never,27.26,6.0,159,0
+Patient_972,Male,22.0,0,0,never,22.92,5.0,145,0
+Patient_973,Female,24.0,0,0,never,25.2,3.5,155,0
+Patient_974,Female,24.0,0,0,former,34.76,4.0,145,0
+Patient_975,Female,19.0,0,0,never,40.31,6.0,85,0
+Patient_976,Female,59.0,0,0,never,30.21,6.2,100,0
+Patient_977,Female,44.0,0,0,former,21.95,5.7,126,0
+Patient_978,Female,18.0,0,0,never,21.03,6.2,126,0
+Patient_979,Male,76.0,0,1,never,20.96,6.0,140,1
+Patient_980,Female,21.0,0,0,ever,31.57,4.0,126,0
+Patient_981,Male,52.0,0,0,never,28.57,6.0,140,0
+Patient_982,Male,80.0,0,1,never,27.94,3.5,158,0
+Patient_983,Male,80.0,1,0,never,27.18,6.2,80,0
+Patient_984,Male,31.0,1,0,never,26.36,4.0,145,0
+Patient_985,Female,31.0,0,0,not current,27.32,6.6,140,0
+Patient_986,Female,47.0,0,0,never,25.64,6.0,140,0
+Patient_987,Female,80.0,0,0,not current,28.66,5.0,200,0
+Patient_988,Female,59.0,0,0,former,27.32,6.0,130,0
+Patient_989,Female,68.0,1,0,ever,27.92,4.8,100,0
+Patient_990,Male,52.0,1,0,never,35.44,5.7,220,1
+Patient_991,Male,62.0,0,0,not current,37.75,6.2,160,0
+Patient_992,Male,79.0,0,1,not current,27.32,6.1,100,0
+Patient_993,Female,15.0,0,0,never,21.34,6.1,145,0
+Patient_994,Male,70.0,0,0,never,27.32,6.6,159,0
+Patient_995,Male,4.0,0,0,never,15.8,6.2,85,0
+Patient_996,Male,80.0,0,1,former,26.76,3.5,80,0
+Patient_997,Male,30.0,0,0,never,34.85,6.0,80,0
+Patient_998,Female,44.0,0,0,current,37.3,5.7,158,0
+Patient_999,Female,30.0,0,0,never,27.32,6.0,159,0
+Patient_1000,Male,19.0,0,0,never,30.53,4.5,155,0
+Patient_1001,Female,48.0,0,0,never,29.05,5.8,200,0
+Patient_1002,Female,66.0,1,0,never,27.32,3.5,100,0
+Patient_1003,Female,54.0,0,0,current,32.39,6.5,130,0
+Patient_1004,Male,40.0,0,0,not current,28.8,4.8,159,0
+Patient_1005,Female,58.0,0,0,never,32.07,7.0,220,1
+Patient_1006,Female,57.0,0,0,ever,45.19,4.5,159,0
+Patient_1007,Male,40.0,0,0,ever,21.67,6.1,90,0
+Patient_1008,Female,41.0,0,0,never,29.99,6.2,200,0
+Patient_1009,Male,29.0,0,0,ever,28.23,6.6,80,0
+Patient_1010,Female,22.0,0,0,never,25.82,6.5,80,0
+Patient_1011,Female,51.0,0,0,ever,34.11,6.2,140,0
+Patient_1012,Female,80.0,0,0,never,21.38,3.5,200,0
+Patient_1013,Female,45.0,0,0,not current,27.32,6.2,200,0
+Patient_1014,Male,42.0,0,0,never,29.55,6.2,130,0
+Patient_1015,Female,45.0,0,0,never,21.51,6.5,280,1
+Patient_1016,Male,15.0,0,0,never,25.4,6.6,130,0
+Patient_1017,Female,64.0,0,0,never,27.32,4.5,158,0
+Patient_1018,Male,58.0,0,0,current,27.61,4.5,140,0
+Patient_1019,Male,70.0,1,0,ever,28.72,6.2,140,1
+Patient_1020,Male,57.0,0,0,former,41.16,6.6,220,1
+Patient_1021,Female,61.0,0,0,never,27.29,6.0,200,0
+Patient_1022,Female,30.0,0,0,never,22.8,5.0,130,0
+Patient_1023,Male,26.0,0,0,former,41.9,4.8,160,0
+Patient_1024,Male,62.0,0,0,ever,29.0,6.1,160,0
+Patient_1025,Male,79.0,0,0,former,27.36,4.0,140,0
+Patient_1026,Female,46.0,0,0,never,24.45,5.0,160,0
+Patient_1027,Female,61.0,0,0,never,27.32,6.1,126,0
+Patient_1028,Male,46.0,0,0,never,27.32,5.8,80,0
+Patient_1029,Male,41.0,0,0,never,31.89,6.6,80,0
+Patient_1030,Male,23.0,0,0,never,25.04,6.0,85,0
+Patient_1031,Female,80.0,0,1,never,26.0,7.5,200,1
+Patient_1032,Male,80.0,0,1,former,20.26,6.2,200,0
+Patient_1033,Male,37.0,0,0,former,27.32,4.0,155,0
+Patient_1034,Female,44.0,0,1,ever,31.92,6.1,100,0
+Patient_1035,Female,54.0,0,0,ever,36.74,6.0,100,0
+Patient_1036,Male,73.0,0,0,former,30.47,6.6,140,1
+Patient_1037,Female,42.0,0,0,never,40.96,5.8,200,0
+Patient_1038,Male,27.0,0,0,never,27.32,4.5,85,0
+Patient_1039,Female,38.0,0,0,never,21.95,6.5,90,0
+Patient_1040,Male,30.0,0,0,current,27.32,9.0,200,1
+Patient_1041,Female,19.0,0,0,never,20.78,6.2,90,0
+Patient_1042,Male,70.0,0,1,not current,33.31,6.6,160,0
+Patient_1043,Female,47.0,0,0,current,19.97,4.8,158,0
+Patient_1044,Male,80.0,0,0,current,27.32,5.8,90,0
+Patient_1045,Female,80.0,0,0,never,33.81,6.5,280,1
+Patient_1046,Male,30.0,0,0,never,29.51,6.5,100,0
+Patient_1047,Female,52.0,0,0,current,27.32,6.2,90,0
+Patient_1048,Female,45.0,0,0,never,27.32,6.6,159,0
+Patient_1049,Male,61.0,0,0,never,26.02,6.6,145,0
+Patient_1050,Female,26.0,0,0,ever,21.79,5.8,145,0
+Patient_1051,Female,56.0,0,0,never,20.27,6.0,159,0
+Patient_1052,Female,78.0,0,0,former,19.33,6.1,160,0
+Patient_1053,Female,30.0,0,0,never,23.54,6.5,140,0
+Patient_1054,Male,65.0,0,0,never,31.85,6.0,155,0
+Patient_1055,Female,19.0,0,0,never,23.8,4.5,100,0
+Patient_1056,Female,27.0,0,0,never,29.6,6.0,100,0
+Patient_1057,Female,51.0,0,0,ever,37.98,4.5,160,0
+Patient_1058,Female,21.0,0,0,not current,30.9,6.0,155,0
+Patient_1059,Male,40.0,0,0,current,26.68,6.5,80,0
+Patient_1060,Female,28.0,0,0,current,27.32,5.0,145,0
+Patient_1061,Female,43.0,0,0,never,27.32,6.6,145,0
+Patient_1062,Female,44.0,1,0,never,42.12,6.2,200,0
+Patient_1063,Female,56.0,1,0,never,41.45,7.0,220,1
+Patient_1064,Male,44.0,0,0,current,27.32,6.6,155,0
+Patient_1065,Female,63.0,0,0,ever,26.7,4.5,85,0
+Patient_1066,Female,38.0,0,0,former,31.27,6.1,126,0
+Patient_1067,Male,46.0,0,0,current,29.8,5.0,160,0
+Patient_1068,Male,63.0,0,0,never,27.32,5.8,158,0
+Patient_1069,Female,79.0,0,0,never,30.84,5.8,220,1
+Patient_1070,Female,74.0,1,0,not current,30.47,6.2,80,0
+Patient_1071,Female,27.0,0,0,never,32.97,3.5,90,0
+Patient_1072,Female,55.0,0,0,never,42.64,6.0,155,1
+Patient_1073,Female,55.0,0,0,not current,29.4,6.5,85,0
+Patient_1074,Male,52.0,0,0,current,22.96,4.8,158,0
+Patient_1075,Male,62.0,0,0,current,28.66,4.5,80,0
+Patient_1076,Male,75.0,0,0,never,35.49,4.0,158,0
+Patient_1077,Female,61.0,0,0,never,25.29,4.5,126,0
+Patient_1078,Female,69.0,0,0,former,25.33,6.5,200,1
+Patient_1079,Female,45.0,0,1,current,20.31,6.2,130,0
+Patient_1080,Male,39.0,0,0,not current,23.72,6.1,158,0
+Patient_1081,Female,45.0,0,0,ever,28.72,4.8,140,0
+Patient_1082,Male,41.0,0,0,never,24.57,5.7,90,0
+Patient_1083,Male,63.0,0,0,former,22.93,4.0,200,0
+Patient_1084,Female,36.0,0,0,never,33.12,6.1,159,0
+Patient_1085,Female,77.0,0,0,never,28.13,6.2,145,0
+Patient_1086,Female,65.0,0,0,never,26.0,5.8,155,0
+Patient_1087,Female,59.0,0,0,current,22.32,8.8,126,1
+Patient_1088,Female,24.0,0,0,never,27.12,5.8,85,0
+Patient_1089,Female,54.0,0,0,never,27.32,6.0,160,1
+Patient_1090,Male,53.0,0,0,current,27.32,6.2,158,0
+Patient_1091,Female,25.0,0,0,current,37.45,5.7,145,0
+Patient_1092,Female,60.0,0,0,former,30.29,5.8,158,0
+Patient_1093,Male,66.0,0,0,never,30.27,6.1,100,0
+Patient_1094,Male,47.0,0,1,current,23.51,3.5,130,0
+Patient_1095,Male,38.0,0,0,current,26.09,6.5,155,0
+Patient_1096,Male,51.0,0,0,never,27.32,5.7,145,1
+Patient_1097,Male,29.0,0,0,ever,27.32,6.2,200,0
+Patient_1098,Male,3.0,0,0,never,15.3,4.8,159,0
+Patient_1099,Male,57.0,0,0,never,28.61,4.0,145,0
+Patient_1100,Female,56.0,0,0,current,20.98,6.1,200,0
+Patient_1101,Male,71.0,0,0,ever,28.69,9.0,145,1
+Patient_1102,Male,18.0,0,0,current,27.32,4.0,145,0
+Patient_1103,Male,41.0,0,0,never,33.47,4.5,158,0
+Patient_1104,Female,70.0,0,0,never,26.67,6.5,130,1
+Patient_1105,Female,51.0,0,0,never,24.02,6.2,130,0
+Patient_1106,Male,12.0,0,0,never,18.78,6.2,90,0
+Patient_1107,Male,61.0,0,0,never,33.12,7.5,260,1
+Patient_1108,Female,60.0,0,0,never,26.08,6.0,85,0
+Patient_1109,Male,80.0,1,0,former,34.14,6.6,155,0
+Patient_1110,Female,66.0,0,0,former,24.85,8.8,140,1
+Patient_1111,Female,30.0,0,0,never,27.66,4.5,158,0
+Patient_1112,Female,1.88,0,0,never,18.66,5.0,90,0
+Patient_1113,Male,15.0,0,0,never,18.74,6.6,85,0
+Patient_1114,Female,50.0,0,0,former,26.75,5.8,160,0
+Patient_1115,Female,78.0,0,1,never,27.32,6.5,300,1
+Patient_1116,Male,67.0,0,0,former,34.04,4.0,90,0
+Patient_1117,Female,80.0,0,0,never,26.45,6.2,159,0
+Patient_1118,Female,57.0,0,0,never,31.64,6.2,200,0
+Patient_1119,Female,70.0,0,0,former,28.99,3.5,158,0
+Patient_1120,Female,59.0,0,0,never,27.56,4.5,155,0
+Patient_1121,Male,39.0,0,0,not current,27.32,4.0,160,0
+Patient_1122,Female,35.0,0,0,never,38.24,4.0,126,0
+Patient_1123,Female,51.0,0,0,never,41.64,6.6,85,0
+Patient_1124,Male,63.0,0,1,former,34.8,8.2,130,1
+Patient_1125,Male,59.0,1,0,never,32.75,6.6,159,0
+Patient_1126,Male,20.0,0,0,current,19.3,4.8,80,0
+Patient_1127,Female,50.0,0,0,not current,27.32,4.8,100,0
+Patient_1128,Male,22.0,0,0,never,21.72,5.7,159,0
+Patient_1129,Male,68.0,1,0,never,42.15,6.2,145,1
+Patient_1130,Male,29.0,0,0,never,27.75,6.5,158,0
+Patient_1131,Female,32.0,0,0,never,18.29,6.2,100,0
+Patient_1132,Male,22.0,0,0,never,29.45,5.7,155,0
+Patient_1133,Female,25.0,0,0,not current,41.65,9.0,280,1
+Patient_1134,Female,80.0,0,0,never,27.32,5.7,160,0
+Patient_1135,Female,17.0,0,0,never,24.0,6.5,159,0
+Patient_1136,Male,35.0,0,0,not current,33.79,3.5,90,0
+Patient_1137,Female,45.0,0,0,never,20.22,6.0,130,0
+Patient_1138,Male,12.0,0,0,never,17.85,6.0,90,0
+Patient_1139,Male,73.0,1,0,former,24.22,6.5,200,1
+Patient_1140,Female,47.0,0,0,never,25.69,8.2,160,1
+Patient_1141,Male,80.0,0,1,never,31.85,6.8,200,1
+Patient_1142,Female,80.0,1,0,never,23.13,7.5,240,1
+Patient_1143,Male,68.0,0,0,former,27.32,5.7,260,1
+Patient_1144,Male,66.0,0,0,never,37.73,6.0,260,1
+Patient_1145,Female,80.0,0,0,never,33.78,6.6,145,1
+Patient_1146,Female,53.0,1,0,not current,31.1,6.0,126,1
+Patient_1147,Female,63.0,0,0,never,51.61,5.8,200,1
+Patient_1148,Female,80.0,1,0,never,42.49,5.7,145,1
+Patient_1149,Female,47.0,1,0,never,43.15,7.0,126,1
+Patient_1150,Female,54.0,0,0,never,30.61,9.0,126,1
+Patient_1151,Female,69.0,0,0,never,43.29,7.5,159,1
+Patient_1152,Female,59.0,1,0,never,37.51,7.5,159,1
+Patient_1153,Male,63.0,0,0,ever,29.91,5.7,159,1
+Patient_1154,Male,43.0,1,0,never,29.25,5.7,145,1
+Patient_1155,Female,65.0,0,1,never,31.32,5.8,160,1
+Patient_1156,Male,74.0,0,1,not current,28.73,7.0,220,1
+Patient_1157,Male,72.0,1,1,never,33.45,8.2,240,1
+Patient_1158,Male,72.0,0,1,ever,23.54,6.6,300,1
+Patient_1159,Female,49.0,0,0,ever,27.32,6.1,160,1
+Patient_1160,Male,66.0,1,0,never,25.9,6.5,130,1
+Patient_1161,Female,49.0,0,0,never,26.72,8.2,220,1
+Patient_1162,Male,71.0,0,0,ever,27.32,7.5,140,1
+Patient_1163,Male,72.0,1,0,former,27.32,6.2,280,1
+Patient_1164,Female,59.0,0,0,ever,59.03,6.1,200,1
+Patient_1165,Female,54.0,0,0,former,44.1,7.0,159,1
+Patient_1166,Female,48.0,1,0,never,47.0,6.5,240,1
+Patient_1167,Male,54.0,0,0,never,47.64,8.8,130,1
+Patient_1168,Female,62.0,1,0,current,29.05,5.8,220,1
+Patient_1169,Female,42.0,0,0,ever,41.39,6.2,280,1
+Patient_1170,Female,62.0,0,0,never,21.52,7.5,260,1
+Patient_1171,Male,78.0,0,1,not current,21.22,5.8,240,1
+Patient_1172,Male,63.0,0,1,never,38.27,9.0,130,1
+Patient_1173,Female,74.0,1,0,never,46.06,9.0,200,1
+Patient_1174,Female,76.0,1,0,never,22.48,6.1,160,1
+Patient_1175,Female,62.0,0,0,never,32.75,6.8,159,1
+Patient_1176,Male,59.0,0,0,former,30.23,7.5,126,1
+Patient_1177,Male,40.0,0,0,never,32.72,6.6,159,1
+Patient_1178,Male,78.0,1,1,never,26.81,6.8,200,1
+Patient_1179,Female,24.0,0,0,never,19.72,8.8,260,1
+Patient_1180,Male,67.0,1,0,not current,29.01,8.2,155,1
+Patient_1181,Male,53.0,0,0,never,51.36,8.8,140,1
+Patient_1182,Male,39.0,0,0,current,22.46,6.6,300,1
+Patient_1183,Female,77.0,0,0,never,26.41,6.5,140,1
+Patient_1184,Female,75.0,0,0,current,35.57,9.0,126,1
+Patient_1185,Male,62.0,1,0,former,27.32,6.1,160,1
+Patient_1186,Male,80.0,0,1,former,27.32,8.8,220,1
+Patient_1187,Male,78.0,0,0,former,27.32,7.0,300,1
+Patient_1188,Female,39.0,0,0,never,38.51,8.8,126,1
+Patient_1189,Female,46.0,0,0,never,54.86,5.8,140,1
+Patient_1190,Male,27.0,0,0,never,39.75,7.5,145,1
+Patient_1191,Male,56.0,0,0,never,24.27,6.0,260,1
+Patient_1192,Male,47.0,0,0,never,41.89,5.8,145,1
+Patient_1193,Female,47.0,1,0,former,28.89,6.1,145,1
+Patient_1194,Male,75.0,0,1,ever,27.32,6.8,240,1
+Patient_1195,Female,80.0,0,0,not current,31.6,8.2,280,1
+Patient_1196,Female,58.0,0,1,never,22.46,6.5,160,1
+Patient_1197,Female,70.0,0,0,never,31.26,6.6,300,1
+Patient_1198,Female,80.0,1,0,never,27.32,6.5,300,1
+Patient_1199,Female,79.0,1,0,never,28.73,6.2,220,1
+Patient_1200,Female,67.0,0,0,current,34.94,9.0,260,1
+Patient_1201,Male,54.0,0,0,ever,27.32,6.8,220,1
+Patient_1202,Female,79.0,0,0,not current,18.09,7.0,240,1
+Patient_1203,Female,66.0,1,0,former,28.73,7.5,300,1
+Patient_1204,Female,74.0,0,1,never,32.36,7.5,300,1
+Patient_1205,Female,70.0,1,1,not current,31.29,8.8,280,1
+Patient_1206,Female,59.0,0,0,never,27.32,8.8,280,1
+Patient_1207,Male,61.0,1,0,never,33.5,6.5,140,1
+Patient_1208,Male,62.0,0,0,former,31.28,6.6,126,1
+Patient_1209,Female,57.0,1,0,current,45.13,8.8,280,1
+Patient_1210,Female,53.0,0,0,former,29.24,7.0,155,1
+Patient_1211,Female,62.0,1,0,current,26.23,6.2,220,1
+Patient_1212,Female,70.0,0,0,current,25.51,7.5,240,1
+Patient_1213,Female,36.0,0,0,current,63.74,6.5,280,1
+Patient_1214,Female,56.0,1,0,never,37.3,5.8,130,1
+Patient_1215,Female,45.0,0,0,never,21.79,9.0,300,1
+Patient_1216,Female,79.0,0,0,never,30.1,7.0,126,1
+Patient_1217,Male,59.0,0,0,never,24.95,8.8,280,1
+Patient_1218,Female,57.0,0,0,never,39.5,9.0,240,1
+Patient_1219,Male,58.0,0,1,former,27.32,6.0,160,1
+Patient_1220,Male,67.0,1,0,former,25.53,6.6,145,1
+Patient_1221,Male,80.0,0,0,not current,22.77,9.0,160,1
+Patient_1222,Male,73.0,0,0,former,32.17,6.0,160,1
+Patient_1223,Female,63.0,0,0,never,35.21,6.8,159,1
+Patient_1224,Male,49.0,0,0,never,40.29,5.8,240,1
+Patient_1225,Female,55.0,1,0,never,42.11,7.0,159,1
+Patient_1226,Female,68.0,1,0,never,36.39,6.2,159,1
+Patient_1227,Female,36.0,0,0,never,40.0,5.7,260,1
+Patient_1228,Male,77.0,0,0,former,37.5,9.0,126,1
+Patient_1229,Male,80.0,0,0,former,22.96,6.6,300,1
+Patient_1230,Female,80.0,0,1,never,25.45,8.8,220,1
+Patient_1231,Female,80.0,1,1,never,25.24,6.6,130,1
+Patient_1232,Male,80.0,0,0,not current,33.76,5.7,260,1
+Patient_1233,Male,58.0,0,0,not current,27.14,6.6,240,1
+Patient_1234,Male,67.0,0,0,former,28.84,5.7,160,1
+Patient_1235,Female,32.0,0,0,current,23.13,6.0,220,1
+Patient_1236,Female,69.0,1,0,never,27.32,6.2,260,1
+Patient_1237,Female,80.0,1,1,former,27.32,5.7,200,1
+Patient_1238,Male,43.0,0,0,current,43.97,7.5,200,1
+Patient_1239,Male,66.0,0,0,current,35.42,6.8,130,1
+Patient_1240,Female,57.0,1,1,ever,27.32,6.0,160,1
+Patient_1241,Male,62.0,0,0,former,27.76,8.2,159,1
+Patient_1242,Male,76.0,0,0,ever,27.32,6.5,140,1
+Patient_1243,Male,46.0,0,0,current,25.9,9.0,145,1
+Patient_1244,Male,60.0,1,0,never,26.92,6.6,130,1
+Patient_1245,Male,59.0,0,0,never,23.71,6.6,159,1
+Patient_1246,Female,80.0,0,0,not current,29.54,5.7,160,1
+Patient_1247,Male,80.0,0,0,former,27.81,8.2,130,1
+Patient_1248,Male,27.0,0,0,never,27.32,6.6,145,1
+Patient_1249,Male,65.0,0,0,former,34.0,6.5,145,1
+Patient_1250,Male,44.0,0,0,current,27.32,5.7,145,1
+Patient_1251,Female,31.0,0,0,current,48.41,5.8,300,1
+Patient_1252,Female,80.0,0,0,never,31.42,6.8,126,1
+Patient_1253,Female,62.0,1,1,former,26.11,8.8,280,1
+Patient_1254,Female,69.0,0,0,never,57.79,6.2,126,1
+Patient_1255,Female,50.0,0,0,never,38.88,8.2,140,1
+Patient_1256,Female,77.0,0,0,never,28.42,6.5,130,1
+Patient_1257,Male,48.0,1,0,current,27.32,8.2,155,1
+Patient_1258,Female,52.0,0,0,former,29.87,6.5,160,1
+Patient_1259,Female,58.0,1,0,never,38.52,6.6,130,1
+Patient_1260,Female,28.0,1,0,never,42.44,5.8,130,1
+Patient_1261,Female,80.0,0,0,never,26.65,6.0,240,1
+Patient_1262,Female,51.0,0,0,never,45.79,6.0,130,1
+Patient_1263,Male,55.0,0,0,former,25.33,6.5,160,1
+Patient_1264,Male,75.0,0,0,never,37.1,5.7,300,1
+Patient_1265,Female,80.0,0,1,never,35.91,6.2,260,1
+Patient_1266,Male,80.0,0,0,former,25.58,6.2,145,1
+Patient_1267,Female,49.0,0,0,never,26.0,6.1,126,1
+Patient_1268,Female,52.0,0,0,never,30.14,5.8,130,1
+Patient_1269,Female,48.0,1,1,former,50.86,6.0,159,1
+Patient_1270,Female,73.0,1,0,never,22.8,9.0,126,1
+Patient_1271,Female,80.0,0,0,former,29.76,6.1,200,1
+Patient_1272,Female,46.0,0,0,never,69.39,5.7,159,1
+Patient_1273,Female,74.0,1,0,never,29.74,5.8,220,1
+Patient_1274,Female,68.0,0,1,former,35.98,8.8,126,1
+Patient_1275,Female,36.0,0,0,never,23.33,6.6,300,1
+Patient_1276,Male,26.0,1,0,current,20.04,7.5,155,1
+Patient_1277,Female,59.0,0,0,ever,33.41,9.0,280,1
+Patient_1278,Female,69.0,0,0,never,27.32,6.6,145,1
+Patient_1279,Female,79.0,0,0,former,27.32,8.8,200,1
+Patient_1280,Male,47.0,1,0,current,46.61,8.2,145,1
+Patient_1281,Female,65.0,0,0,former,28.9,6.1,220,1
+Patient_1282,Female,67.0,0,0,current,27.32,6.2,130,1
+Patient_1283,Male,43.0,0,0,current,49.38,6.0,160,1
+Patient_1284,Male,65.0,1,0,former,33.9,5.8,160,1
+Patient_1285,Female,38.0,0,0,current,20.09,7.5,240,1
+Patient_1286,Male,64.0,0,0,current,27.1,6.2,260,1
+Patient_1287,Female,39.0,0,0,former,35.5,9.0,300,1
+Patient_1288,Male,35.0,0,0,not current,27.36,6.5,159,1
+Patient_1289,Female,60.0,0,0,former,35.01,7.0,280,1
+Patient_1290,Male,65.0,0,0,current,27.32,6.0,280,1
+Patient_1291,Male,51.0,0,0,never,27.32,7.0,130,1
+Patient_1292,Female,59.0,1,0,never,38.1,6.6,140,1
+Patient_1293,Female,65.0,1,0,never,37.2,6.8,160,1
+Patient_1294,Male,61.0,1,0,former,37.88,9.0,200,1
+Patient_1295,Male,75.0,0,0,not current,34.78,7.0,155,1
+Patient_1296,Male,58.0,0,1,former,35.88,9.0,130,1
+Patient_1297,Female,61.0,1,0,never,38.95,6.0,240,1
+Patient_1298,Female,69.0,0,1,not current,27.32,6.5,200,1
+Patient_1299,Male,80.0,0,0,former,26.21,6.6,140,1
+Patient_1300,Male,73.0,0,0,never,25.2,6.2,300,1
+Patient_1301,Female,44.0,0,0,current,27.32,6.0,126,1
+Patient_1302,Female,80.0,0,1,never,31.53,7.0,160,1
+Patient_1303,Male,80.0,0,0,former,27.32,6.6,240,1
+Patient_1304,Female,60.0,0,0,never,45.98,6.5,159,1
+Patient_1305,Male,42.0,0,0,current,11.91,6.0,260,1
+Patient_1306,Female,73.0,1,0,never,27.8,6.8,280,1
+Patient_1307,Female,68.0,0,0,former,28.0,6.2,160,1
+Patient_1308,Female,61.0,0,0,former,30.49,6.1,155,1
+Patient_1309,Female,58.0,0,0,never,41.41,5.8,280,1
+Patient_1310,Female,56.0,1,0,not current,28.22,7.5,140,1
+Patient_1311,Female,80.0,1,0,former,27.8,6.8,200,1
+Patient_1312,Male,73.0,1,0,ever,22.39,5.7,280,1
+Patient_1313,Female,69.0,1,0,not current,37.83,8.8,300,1
+Patient_1314,Male,60.0,0,0,never,27.32,6.6,159,1
+Patient_1315,Male,76.0,0,0,former,27.32,6.5,240,1
+Patient_1316,Female,75.0,0,0,never,29.97,6.0,220,1
+Patient_1317,Female,29.0,0,0,never,27.74,6.1,160,1
+Patient_1318,Male,72.0,0,0,never,27.97,7.5,160,1
+Patient_1319,Male,67.0,1,0,never,28.31,7.5,145,1
+Patient_1320,Male,37.0,0,0,never,23.43,8.8,220,1
+Patient_1321,Female,69.0,1,0,never,35.0,8.2,130,1
+Patient_1322,Male,35.0,0,0,ever,38.1,8.8,126,1
+Patient_1323,Male,36.0,0,0,former,27.32,7.5,300,1
+Patient_1324,Male,74.0,0,0,not current,27.32,6.5,145,1
+Patient_1325,Male,57.0,0,1,never,40.52,6.0,126,1
+Patient_1326,Male,53.0,0,0,never,27.01,6.2,280,1
+Patient_1327,Female,63.0,0,0,never,40.33,6.0,159,1
+Patient_1328,Female,80.0,1,1,never,31.53,8.8,220,1
+Patient_1329,Male,75.0,0,0,never,23.48,8.2,300,1
+Patient_1330,Female,74.0,0,0,never,30.06,8.8,220,1
+Patient_1331,Female,63.0,0,1,never,40.13,6.6,159,1
+Patient_1332,Male,58.0,0,0,never,34.3,6.2,300,1
+Patient_1333,Male,63.0,0,0,never,37.79,6.5,160,1
+Patient_1334,Female,55.0,1,0,never,38.08,7.5,160,1
+Patient_1335,Male,62.0,0,0,current,26.95,6.1,159,1
+Patient_1336,Female,34.0,0,0,never,40.62,6.1,260,1
+Patient_1337,Female,62.0,0,0,former,27.32,5.7,160,1
+Patient_1338,Female,54.0,1,0,current,27.32,6.2,140,1
+Patient_1339,Male,69.0,1,0,ever,34.88,7.5,200,1
+Patient_1340,Female,39.0,0,0,never,32.81,6.1,155,1
+Patient_1341,Male,73.0,0,1,never,25.06,7.0,160,1
+Patient_1342,Female,45.0,0,0,never,88.72,7.0,300,1
+Patient_1343,Female,48.0,0,0,never,23.4,8.8,140,1
+Patient_1344,Male,69.0,0,0,former,35.4,6.6,280,1
+Patient_1345,Female,80.0,0,0,never,19.3,6.1,159,1
+Patient_1346,Male,53.0,1,0,never,30.87,6.6,200,1
+Patient_1347,Male,71.0,1,1,former,33.49,5.8,160,1
+Patient_1348,Male,50.0,1,0,never,34.22,7.5,145,1
+Patient_1349,Male,54.0,0,1,never,35.64,5.8,155,1
+Patient_1350,Female,69.0,0,1,current,20.25,6.2,126,1
+Patient_1351,Female,74.0,1,0,not current,27.32,9.0,130,1
+Patient_1352,Female,80.0,0,0,not current,31.55,8.8,159,1
+Patient_1353,Male,77.0,0,0,former,31.05,5.8,160,1
+Patient_1354,Male,71.0,0,0,former,26.25,7.5,126,1
+Patient_1355,Male,72.0,0,1,ever,27.32,6.8,155,1
+Patient_1356,Female,46.0,1,1,former,51.61,7.5,159,1
+Patient_1357,Male,51.0,0,0,not current,24.27,5.7,155,1
+Patient_1358,Female,74.0,0,0,former,30.72,8.2,280,1
+Patient_1359,Male,55.0,0,0,former,38.77,8.2,145,1
+Patient_1360,Female,52.0,0,0,current,38.42,7.5,160,1
+Patient_1361,Male,51.0,0,0,ever,25.0,8.8,130,1
+Patient_1362,Male,39.0,0,0,current,48.82,6.0,126,1
+Patient_1363,Male,79.0,0,0,never,27.32,6.1,159,1
+Patient_1364,Male,55.0,0,0,never,30.22,6.2,130,1
+Patient_1365,Male,74.0,0,0,current,26.67,5.8,300,1
+Patient_1366,Male,59.0,0,0,not current,61.02,6.0,126,1
+Patient_1367,Male,68.0,0,0,former,34.28,7.0,280,1
+Patient_1368,Male,42.0,1,0,former,35.58,6.5,200,1
+Patient_1369,Male,73.0,0,0,never,25.32,7.0,159,1
+Patient_1370,Male,68.0,0,0,former,28.76,6.8,200,1
+Patient_1371,Female,50.0,1,0,never,27.32,8.2,260,1
+Patient_1372,Male,67.0,1,1,never,32.91,9.0,130,1
+Patient_1373,Male,79.0,0,0,not current,25.77,6.0,130,1
+Patient_1374,Male,62.0,0,0,never,37.02,7.5,200,1
+Patient_1375,Male,50.0,0,0,ever,24.48,7.5,160,1
+Patient_1376,Male,66.0,0,0,ever,41.51,6.0,159,1
+Patient_1377,Female,48.0,0,0,former,27.32,9.0,260,1
+Patient_1378,Male,53.0,0,0,never,23.76,6.5,280,1
+Patient_1379,Male,46.0,1,0,never,30.5,6.5,260,1
+Patient_1380,Male,36.0,1,0,current,32.81,6.6,155,1
+Patient_1381,Female,51.0,0,0,current,17.38,7.0,280,1
+Patient_1382,Male,59.0,0,1,former,39.17,5.8,280,1
+Patient_1383,Female,80.0,0,0,never,48.04,7.0,126,1
+Patient_1384,Male,78.0,0,1,not current,24.93,6.5,155,1
+Patient_1385,Male,75.0,0,0,not current,34.3,5.7,200,1
+Patient_1386,Female,54.0,0,0,never,25.69,6.8,300,1
+Patient_1387,Male,78.0,0,0,former,35.41,7.0,240,1
+Patient_1388,Male,71.0,0,1,former,27.32,9.0,280,1
+Patient_1389,Male,73.0,0,1,not current,40.29,5.7,200,1
+Patient_1390,Female,53.0,0,0,never,27.32,9.0,160,1
+Patient_1391,Female,49.0,1,0,never,36.62,7.5,280,1
+Patient_1392,Male,75.0,0,0,former,37.87,7.0,140,1
+Patient_1393,Female,53.0,0,0,never,61.99,6.1,240,1
+Patient_1394,Female,60.0,0,0,never,35.43,7.0,220,1
+Patient_1395,Male,47.0,0,1,current,34.49,7.0,159,1
+Patient_1396,Female,64.0,0,0,never,38.77,8.2,130,1
+Patient_1397,Male,68.0,0,1,former,31.68,8.2,240,1
+Patient_1398,Female,31.0,0,0,never,33.74,6.0,240,1
+Patient_1399,Female,47.0,0,0,never,45.65,6.0,140,1
+Patient_1400,Male,58.0,0,0,current,27.32,5.7,260,1
+Patient_1401,Female,55.0,0,0,never,26.95,5.7,280,1
+Patient_1402,Female,59.0,0,0,current,28.9,8.2,145,1
+Patient_1403,Female,44.0,0,0,current,35.74,6.0,300,1
+Patient_1404,Male,41.0,0,0,never,37.14,9.0,145,1
+Patient_1405,Female,67.0,0,1,former,20.09,7.5,220,1
+Patient_1406,Male,43.0,0,0,not current,42.83,9.0,159,1
+Patient_1407,Female,75.0,0,0,never,25.04,8.8,300,1
+Patient_1408,Female,48.0,0,0,never,32.5,7.0,155,1
+Patient_1409,Male,70.0,1,0,not current,34.7,6.5,155,1
+Patient_1410,Female,71.0,0,0,former,25.12,6.0,280,1
+Patient_1411,Female,18.0,0,0,current,29.96,6.2,145,1
+Patient_1412,Male,80.0,0,0,former,22.73,6.0,220,1
+Patient_1413,Female,65.0,0,0,former,35.39,5.8,240,1
+Patient_1414,Male,69.0,0,1,current,29.43,8.2,240,1
+Patient_1415,Male,80.0,0,1,former,27.8,8.8,145,1
+Patient_1416,Female,79.0,1,0,never,23.34,6.6,159,1
+Patient_1417,Male,72.0,0,1,not current,35.69,6.8,126,1
+Patient_1418,Female,59.0,0,0,never,33.45,7.0,140,1
+Patient_1419,Female,54.0,0,0,never,40.96,7.5,130,1
+Patient_1420,Female,80.0,1,0,never,27.03,6.8,130,1
+Patient_1421,Female,80.0,1,0,not current,32.05,9.0,130,1
+Patient_1422,Female,14.0,0,0,current,24.29,7.0,155,1
+Patient_1423,Male,59.0,0,0,former,27.32,6.6,280,1
+Patient_1424,Female,73.0,0,0,former,27.32,5.8,200,1
+Patient_1425,Male,38.0,0,0,current,19.26,6.2,130,1
+Patient_1426,Female,74.0,0,0,never,42.6,6.1,260,1
+Patient_1427,Male,50.0,1,0,current,32.31,6.1,300,1
+Patient_1428,Male,54.0,1,0,current,33.74,6.2,240,1
+Patient_1429,Male,52.0,0,0,current,33.76,6.5,260,1
+Patient_1430,Female,53.0,1,0,not current,51.22,7.5,130,1
+Patient_1431,Male,53.0,1,0,never,27.32,6.6,130,1
+Patient_1432,Male,61.0,0,0,former,28.41,8.2,220,1
+Patient_1433,Male,79.0,1,0,not current,27.32,8.8,260,1
+Patient_1434,Male,73.0,0,0,never,28.3,9.0,280,1
+Patient_1435,Male,65.0,1,0,former,43.41,8.8,300,1
+Patient_1436,Male,61.0,1,0,never,40.76,7.5,300,1
+Patient_1437,Female,74.0,0,1,never,28.83,6.0,280,1
+Patient_1438,Male,44.0,0,0,current,27.32,6.8,160,1
+Patient_1439,Male,22.0,0,0,current,36.83,6.2,126,1
+Patient_1440,Female,62.0,0,0,never,39.35,5.8,160,1
+Patient_1441,Female,76.0,1,0,ever,31.46,6.5,155,1
+Patient_1442,Male,78.0,1,0,former,30.23,6.1,220,1
+Patient_1443,Female,80.0,0,0,never,27.81,8.8,240,1
+Patient_1444,Female,56.0,1,0,never,27.8,6.1,280,1
+Patient_1445,Female,72.0,0,1,former,31.83,5.7,126,1
+Patient_1446,Female,72.0,0,1,never,27.32,9.0,220,1
+Patient_1447,Female,26.0,0,0,ever,31.48,6.2,200,1
+Patient_1448,Male,66.0,0,0,former,29.9,8.8,159,1
+Patient_1449,Male,67.0,0,0,never,29.05,8.2,155,1
+Patient_1450,Female,80.0,0,0,not current,28.08,6.1,140,1
+Patient_1451,Male,62.0,0,0,current,26.38,6.1,155,1
+Patient_1452,Male,67.0,0,1,former,28.99,5.7,260,1
+Patient_1453,Male,71.0,0,1,former,31.01,6.5,145,1
+Patient_1454,Male,47.0,0,0,never,38.19,6.2,240,1
+Patient_1455,Female,56.0,0,0,never,27.28,9.0,130,1
+Patient_1456,Female,62.0,0,0,never,27.32,6.8,300,1
+Patient_1457,Male,65.0,0,0,current,27.32,6.8,200,1
+Patient_1458,Male,65.0,0,0,never,31.81,6.6,300,1
+Patient_1459,Male,61.0,0,0,never,32.26,7.5,200,1
+Patient_1460,Female,64.0,0,0,not current,50.07,8.2,260,1
+Patient_1461,Female,41.0,0,0,never,34.23,6.0,130,1
+Patient_1462,Female,80.0,1,0,never,34.87,6.6,240,1
+Patient_1463,Female,80.0,0,1,never,26.41,9.0,160,1
+Patient_1464,Female,80.0,0,0,not current,27.57,6.5,240,1
+Patient_1465,Male,62.0,1,0,never,28.22,6.2,145,1
+Patient_1466,Male,63.0,1,0,ever,27.32,6.8,130,1
+Patient_1467,Male,51.0,0,0,never,32.63,7.5,130,1
+Patient_1468,Male,64.0,0,0,not current,54.79,5.7,220,1
+Patient_1469,Female,63.0,0,1,never,24.02,6.8,280,1
+Patient_1470,Male,35.0,0,0,ever,27.32,7.0,159,1
+Patient_1471,Male,37.0,0,0,never,27.31,6.2,300,1
+Patient_1472,Male,73.0,1,0,never,26.95,5.8,155,1
+Patient_1473,Female,63.0,0,0,former,27.32,6.8,159,1
+Patient_1474,Female,49.0,0,0,former,40.3,6.2,130,1
+Patient_1475,Male,73.0,0,0,never,27.27,6.6,155,1
+Patient_1476,Male,77.0,0,0,never,33.1,5.8,160,1
+Patient_1477,Female,52.0,0,1,never,44.1,5.7,140,1
+Patient_1478,Male,63.0,0,1,current,27.32,6.8,300,1
+Patient_1479,Male,77.0,0,1,former,30.7,7.5,159,1
+Patient_1480,Female,55.0,0,0,former,54.86,8.2,260,1
+Patient_1481,Female,61.0,0,0,current,27.32,6.6,260,1
+Patient_1482,Female,66.0,1,0,not current,44.64,7.5,220,1
+Patient_1483,Female,44.0,0,0,never,27.32,5.7,126,1
+Patient_1484,Female,75.0,0,0,never,22.16,6.0,155,1
+Patient_1485,Male,72.0,1,0,not current,27.32,6.5,155,1
+Patient_1486,Female,61.0,0,1,not current,36.92,9.0,130,1
+Patient_1487,Female,57.0,0,0,former,35.04,8.8,200,1
+Patient_1488,Female,38.0,0,0,current,36.75,7.5,240,1
+Patient_1489,Female,51.0,1,0,never,24.59,9.0,159,1
+Patient_1490,Female,76.0,0,0,never,36.65,6.5,130,1
+Patient_1491,Female,9.0,0,0,never,16.0,6.1,200,1
+Patient_1492,Female,78.0,0,0,never,31.85,5.7,160,1
+Patient_1493,Male,61.0,1,0,former,27.79,7.5,160,1
+Patient_1494,Female,41.0,0,0,never,30.8,6.1,300,1
+Patient_1495,Male,57.0,0,0,never,27.22,6.0,126,1
+Patient_1496,Female,55.0,0,0,not current,21.0,7.0,160,1
+Patient_1497,Male,59.0,0,0,never,34.97,6.8,240,1
+Patient_1498,Female,80.0,1,0,never,29.11,6.6,160,1
+Patient_1499,Male,80.0,0,1,never,29.56,7.0,140,1
+Patient_1500,Male,71.0,0,0,never,41.58,7.5,280,1
+Patient_1501,Male,66.0,0,0,current,39.17,6.2,200,1
+Patient_1502,Male,55.0,1,0,former,34.33,7.5,220,1
+Patient_1503,Female,71.0,1,0,former,30.91,6.0,155,1
+Patient_1504,Female,51.0,0,0,never,27.32,5.8,260,1
+Patient_1505,Female,37.0,1,0,former,45.87,5.8,220,1
+Patient_1506,Female,66.0,0,0,former,31.17,5.8,300,1
+Patient_1507,Male,55.0,0,0,never,27.32,6.8,160,1
+Patient_1508,Male,80.0,0,0,never,29.24,9.0,160,1
+Patient_1509,Male,48.0,0,1,former,34.17,9.0,155,1
+Patient_1510,Male,51.0,0,0,ever,30.09,6.2,126,1
+Patient_1511,Male,72.0,0,1,not current,26.09,6.6,130,1
+Patient_1512,Male,70.0,0,1,former,28.87,6.0,155,1
+Patient_1513,Female,44.0,0,1,current,27.32,6.2,280,1
+Patient_1514,Male,59.0,0,0,former,34.13,5.8,155,1
+Patient_1515,Female,59.0,0,0,current,28.42,7.0,260,1
+Patient_1516,Female,40.0,0,0,never,26.89,7.5,300,1
+Patient_1517,Female,69.0,0,0,never,28.24,8.8,300,1
+Patient_1518,Female,70.0,0,0,never,26.2,6.1,220,1
+Patient_1519,Male,49.0,0,0,never,44.48,6.1,220,1
+Patient_1520,Female,67.0,0,0,ever,24.98,5.7,159,1
+Patient_1521,Male,45.0,0,0,current,35.7,6.2,159,1
+Patient_1522,Male,67.0,0,1,never,31.7,5.8,200,1
+Patient_1523,Male,67.0,0,0,never,32.43,8.2,240,1
+Patient_1524,Female,69.0,0,0,former,27.32,9.0,145,1
+Patient_1525,Female,50.0,0,0,never,39.98,8.2,160,1
+Patient_1526,Female,46.0,0,0,not current,25.72,5.8,126,1
+Patient_1527,Female,60.0,0,0,never,37.41,5.8,159,1
+Patient_1528,Male,73.0,0,0,never,29.22,5.8,145,1
+Patient_1529,Female,69.0,0,0,never,46.42,7.5,155,1
+Patient_1530,Female,65.0,1,0,never,26.72,8.2,140,1
+Patient_1531,Female,71.0,0,0,never,25.21,8.2,145,1
+Patient_1532,Male,42.0,0,0,current,59.27,7.0,159,1
+Patient_1533,Male,58.0,0,0,former,46.45,6.2,140,1
+Patient_1534,Male,42.0,0,0,former,23.87,6.5,130,1
+Patient_1535,Female,73.0,0,0,ever,27.73,7.0,300,1
+Patient_1536,Female,80.0,0,0,never,31.01,5.7,160,1
+Patient_1537,Male,60.0,0,1,former,23.13,8.8,280,1
+Patient_1538,Female,59.0,0,0,never,47.98,6.0,260,1
+Patient_1539,Female,42.0,0,0,never,40.44,8.8,130,1
+Patient_1540,Female,63.0,1,0,former,29.46,6.6,160,1
+Patient_1541,Male,42.0,0,0,never,25.16,5.7,240,1
+Patient_1542,Female,78.0,0,0,ever,27.32,6.2,240,1
+Patient_1543,Female,55.0,1,0,never,36.66,6.0,155,1
+Patient_1544,Female,73.0,0,0,former,27.32,6.6,159,1
+Patient_1545,Female,61.0,0,0,never,27.17,6.2,126,1
+Patient_1546,Female,74.0,0,0,never,47.16,9.0,220,1
+Patient_1547,Female,59.0,1,1,current,33.1,7.0,300,1
+Patient_1548,Female,45.0,1,0,former,43.59,8.8,140,1
+Patient_1549,Male,56.0,1,0,never,29.09,6.2,145,1
+Patient_1550,Female,15.0,0,0,never,22.65,8.8,126,1
+Patient_1551,Female,71.0,0,0,former,37.94,6.0,280,1
+Patient_1552,Female,47.0,0,0,current,49.04,8.2,145,1
+Patient_1553,Female,77.0,0,0,never,25.6,6.2,140,1
+Patient_1554,Male,38.0,0,0,current,69.66,8.8,300,1
+Patient_1555,Male,66.0,1,0,never,27.32,5.8,159,1
+Patient_1556,Female,65.0,1,0,never,64.23,6.6,155,1
+Patient_1557,Female,75.0,0,0,current,24.31,9.0,145,1
+Patient_1558,Male,63.0,0,1,current,28.69,5.7,200,1
+Patient_1559,Female,36.0,0,0,current,29.93,5.7,260,1
+Patient_1560,Female,54.0,0,0,never,27.32,9.0,240,1
+Patient_1561,Female,80.0,0,0,never,25.3,6.1,140,1
+Patient_1562,Female,77.0,1,0,ever,41.69,6.0,160,1
+Patient_1563,Male,56.0,0,0,never,35.71,6.8,140,1
+Patient_1564,Female,69.0,0,0,never,42.67,7.0,260,1
+Patient_1565,Male,44.0,1,0,never,28.07,6.8,300,1
+Patient_1566,Female,59.0,0,0,never,30.48,6.0,140,1
+Patient_1567,Male,80.0,0,1,ever,26.98,9.0,220,1
+Patient_1568,Male,77.0,0,0,former,27.32,6.6,260,1
+Patient_1569,Male,52.0,1,0,former,34.37,8.2,130,1
+Patient_1570,Male,77.0,0,0,former,24.89,5.7,200,1
+Patient_1571,Female,28.0,0,0,current,43.4,9.0,130,1
+Patient_1572,Male,31.0,0,0,never,27.32,6.5,160,1
+Patient_1573,Male,57.0,0,0,never,30.65,8.2,140,1
+Patient_1574,Female,80.0,0,0,never,24.03,5.7,126,1
+Patient_1575,Male,65.0,0,0,former,25.26,7.0,280,1
+Patient_1576,Female,45.0,0,0,current,31.32,7.5,159,1
+Patient_1577,Male,59.0,0,1,never,27.32,6.1,300,1
+Patient_1578,Female,59.0,0,0,never,38.05,5.8,240,1
+Patient_1579,Female,75.0,0,0,never,31.36,6.5,155,1
+Patient_1580,Female,76.0,1,0,ever,27.32,7.5,145,1
+Patient_1581,Male,67.0,0,0,not current,30.63,9.0,260,1
+Patient_1582,Male,51.0,1,0,not current,39.67,6.2,155,1
+Patient_1583,Female,68.0,0,0,never,34.89,6.8,126,1
+Patient_1584,Female,59.0,0,0,never,37.94,6.0,260,1
+Patient_1585,Male,16.0,0,0,never,21.31,5.8,160,1
+Patient_1586,Male,43.0,0,0,never,41.0,6.6,240,1
+Patient_1587,Male,6.0,0,0,never,15.69,6.1,220,1
+Patient_1588,Male,68.0,0,1,former,29.95,8.8,159,1
+Patient_1589,Female,55.0,0,0,not current,27.32,6.5,160,1
+Patient_1590,Female,76.0,1,0,never,31.1,6.2,145,1
+Patient_1591,Male,44.0,1,0,not current,31.43,7.0,159,1
+Patient_1592,Female,47.0,0,0,never,36.11,6.1,240,1
+Patient_1593,Female,70.0,1,0,never,29.84,6.2,160,1
+Patient_1594,Female,67.0,0,1,current,32.82,6.0,130,1
+Patient_1595,Female,77.0,0,0,never,29.37,6.1,126,1
+Patient_1596,Female,80.0,1,1,former,28.06,8.2,130,1
+Patient_1597,Female,78.0,0,0,former,38.14,6.5,140,1
+Patient_1598,Female,62.0,0,0,never,34.24,8.2,300,1
+Patient_1599,Female,28.0,0,0,not current,33.45,8.2,260,1
+Patient_1600,Female,55.0,0,0,not current,27.32,7.5,220,1
+Patient_1601,Female,43.0,0,0,current,41.75,6.8,140,1
+Patient_1602,Male,80.0,0,0,former,34.2,8.8,126,1
+Patient_1603,Female,78.0,0,0,not current,27.32,6.5,126,1
+Patient_1604,Male,52.0,1,1,former,32.12,6.5,140,1
+Patient_1605,Female,80.0,1,0,never,30.67,5.8,260,1
+Patient_1606,Male,65.0,0,0,never,28.98,8.8,155,1
+Patient_1607,Female,46.0,0,0,ever,32.53,6.0,260,1
+Patient_1608,Female,62.0,0,0,never,27.32,6.0,126,1
+Patient_1609,Female,48.0,0,0,never,27.32,7.5,155,1
+Patient_1610,Male,30.0,0,0,never,42.24,6.0,280,1
+Patient_1611,Female,62.0,0,0,not current,26.85,5.8,220,1
+Patient_1612,Female,67.0,1,0,never,32.14,6.1,159,1
+Patient_1613,Female,62.0,0,0,never,57.21,5.7,260,1
+Patient_1614,Female,46.0,1,0,current,27.32,7.5,155,1
+Patient_1615,Female,53.0,0,0,current,27.32,6.1,300,1
+Patient_1616,Male,56.0,0,0,current,33.09,5.8,159,1
+Patient_1617,Male,70.0,0,0,former,27.32,6.6,160,1
+Patient_1618,Male,58.0,0,0,never,27.9,6.1,140,1
+Patient_1619,Male,56.0,0,0,not current,27.32,7.5,155,1
+Patient_1620,Female,50.0,0,0,never,44.1,5.7,200,1
+Patient_1621,Female,80.0,0,0,former,32.05,9.0,300,1
+Patient_1622,Male,74.0,0,1,never,27.32,5.7,155,1
+Patient_1623,Female,70.0,0,0,never,34.45,6.2,200,1
+Patient_1624,Male,63.0,0,0,former,27.32,9.0,160,1
+Patient_1625,Female,63.0,0,0,not current,39.11,6.5,145,1
+Patient_1626,Female,54.0,1,0,ever,42.87,7.5,145,1
+Patient_1627,Male,70.0,0,0,never,23.65,6.2,160,1
+Patient_1628,Male,71.0,0,0,former,31.53,6.2,140,1
+Patient_1629,Male,80.0,1,1,never,29.98,5.7,260,1
+Patient_1630,Male,60.0,1,0,never,24.64,8.8,200,1
+Patient_1631,Male,61.0,0,0,former,33.4,6.5,220,1
+Patient_1632,Male,80.0,0,0,never,27.21,6.1,280,1
+Patient_1633,Female,80.0,0,0,never,29.93,6.8,260,1
+Patient_1634,Male,72.0,0,0,current,35.08,5.7,300,1
+Patient_1635,Male,69.0,1,0,never,30.6,6.2,140,1
+Patient_1636,Male,67.0,0,0,former,28.37,6.1,260,1
+Patient_1637,Female,59.0,0,0,never,33.24,6.1,159,1
+Patient_1638,Female,52.0,0,0,current,34.34,8.8,220,1
+Patient_1639,Female,66.0,1,1,never,26.89,5.7,220,1
+Patient_1640,Female,47.0,0,0,former,37.42,8.8,280,1
+Patient_1641,Male,42.0,0,0,never,49.2,9.0,300,1
+Patient_1642,Male,48.0,0,0,never,30.09,7.0,200,1
+Patient_1643,Male,37.0,0,0,never,21.38,5.8,280,1
+Patient_1644,Female,77.0,0,0,never,30.51,5.7,280,1
+Patient_1645,Male,80.0,0,0,never,27.32,6.6,260,1
+Patient_1646,Male,47.0,0,0,current,22.9,6.0,240,1
+Patient_1647,Male,80.0,1,1,former,31.56,5.8,145,1
+Patient_1648,Male,67.0,0,1,never,29.79,7.5,126,1
+Patient_1649,Male,80.0,0,0,former,32.42,8.2,126,1
+Patient_1650,Male,75.0,0,0,former,28.69,9.0,130,1
+Patient_1651,Male,77.0,0,0,former,23.14,9.0,300,1
+Patient_1652,Female,80.0,0,0,never,38.0,6.0,160,1
+Patient_1653,Male,80.0,1,1,never,23.24,6.6,300,1
+Patient_1654,Female,80.0,0,0,never,22.25,6.0,160,1
+Patient_1655,Female,61.0,1,0,ever,31.43,6.1,260,1
+Patient_1656,Male,66.0,0,0,current,29.69,5.8,220,1
+Patient_1657,Male,80.0,0,0,former,26.25,5.7,140,1
+Patient_1658,Male,54.0,0,0,never,30.59,6.0,140,1
+Patient_1659,Male,67.0,1,0,ever,27.15,9.0,126,1
+Patient_1660,Female,67.0,0,0,never,32.24,6.1,130,1
+Patient_1661,Male,74.0,1,0,former,43.79,9.0,159,1
+Patient_1662,Female,80.0,0,1,never,31.58,8.2,260,1
+Patient_1663,Male,77.0,0,0,never,30.38,7.5,126,1
+Patient_1664,Female,77.0,1,0,never,28.8,8.2,155,1
+Patient_1665,Female,75.0,1,0,current,32.26,6.0,200,1
+Patient_1666,Female,70.0,0,1,never,27.32,6.1,126,1
+Patient_1667,Male,20.0,0,0,never,23.51,6.6,126,1
+Patient_1668,Female,58.0,0,0,current,33.94,7.5,240,1
+Patient_1669,Male,49.0,1,0,former,27.32,5.7,159,1
+Patient_1670,Male,68.0,0,0,never,27.32,6.8,155,1
+Patient_1671,Female,80.0,0,0,never,21.3,6.0,126,1
+Patient_1672,Female,79.0,1,0,never,29.49,6.2,145,1
+Patient_1673,Male,73.0,0,0,former,38.49,5.8,130,1
+Patient_1674,Male,70.0,0,0,never,35.46,6.2,200,1
+Patient_1675,Male,64.0,0,0,former,29.57,7.5,155,1
+Patient_1676,Female,56.0,0,0,never,34.07,6.8,126,1
+Patient_1677,Male,47.0,0,0,ever,36.94,8.8,130,1
+Patient_1678,Female,67.0,0,0,never,61.85,6.5,145,1
+Patient_1679,Male,74.0,1,0,ever,29.7,5.8,160,1
+Patient_1680,Female,58.0,0,0,never,37.59,5.7,280,1
+Patient_1681,Male,46.0,0,0,current,45.16,7.0,160,1
+Patient_1682,Male,60.0,0,0,former,33.04,5.8,300,1
+Patient_1683,Female,80.0,1,1,never,22.8,7.5,280,1
+Patient_1684,Female,61.0,0,0,not current,26.39,8.8,280,1
+Patient_1685,Male,80.0,0,0,former,27.32,6.8,240,1
+Patient_1686,Female,71.0,0,1,former,37.91,6.6,220,1
+Patient_1687,Female,67.0,1,0,never,45.36,7.5,140,1
+Patient_1688,Female,45.0,0,0,not current,28.84,7.5,200,1
+Patient_1689,Male,71.0,1,0,never,29.74,8.8,145,1
+Patient_1690,Female,50.0,1,0,former,32.62,7.5,240,1
+Patient_1691,Male,42.0,0,0,former,29.17,9.0,126,1
+Patient_1692,Male,80.0,0,0,never,29.53,6.6,260,1
+Patient_1693,Female,43.0,0,0,current,36.49,5.8,280,1
+Patient_1694,Male,77.0,1,0,current,24.96,8.8,240,1
+Patient_1695,Male,57.0,1,0,current,34.68,6.2,200,1
+Patient_1696,Female,72.0,1,1,never,30.34,6.8,200,1
+Patient_1697,Male,59.0,0,0,not current,32.38,9.0,220,1
+Patient_1698,Male,42.0,0,0,ever,50.08,7.0,160,1
+Patient_1699,Female,48.0,1,0,never,29.9,6.6,130,1
+Patient_1700,Male,62.0,0,1,former,40.9,9.0,220,1
+Patient_1701,Female,42.0,0,0,not current,27.32,5.7,145,1
+Patient_1702,Female,62.0,0,0,not current,27.32,8.2,155,1
+Patient_1703,Female,57.0,1,0,former,36.27,7.0,240,1
+Patient_1704,Male,33.0,1,0,former,33.65,6.8,220,1
+Patient_1705,Male,60.0,0,0,former,40.9,6.8,155,1
+Patient_1706,Male,57.0,1,1,former,32.21,7.0,240,1
+Patient_1707,Male,61.0,1,0,ever,19.16,6.6,280,1
+Patient_1708,Female,61.0,0,0,never,33.56,5.7,160,1
+Patient_1709,Female,70.0,1,1,former,26.71,5.7,145,1
+Patient_1710,Male,59.0,0,0,never,44.05,7.0,160,1
+Patient_1711,Male,67.0,1,0,current,45.1,7.5,200,1
+Patient_1712,Female,25.0,0,0,never,31.59,6.5,126,1
+Patient_1713,Male,75.0,1,0,current,26.61,6.2,260,1
+Patient_1714,Female,51.0,1,1,not current,48.16,6.2,220,1
+Patient_1715,Male,74.0,0,0,former,27.32,8.2,145,1
+Patient_1716,Female,31.0,0,0,not current,37.3,6.5,240,1
+Patient_1717,Female,68.0,0,0,former,43.78,6.0,200,1
+Patient_1718,Male,57.0,0,0,never,27.32,6.5,145,1
+Patient_1719,Male,80.0,0,0,never,35.57,7.5,260,1
+Patient_1720,Male,80.0,0,0,not current,30.28,6.1,145,1
+Patient_1721,Male,68.0,0,1,never,30.94,8.2,160,1
+Patient_1722,Female,67.0,1,0,ever,24.61,6.8,159,1
+Patient_1723,Female,70.0,0,0,current,21.37,6.2,280,1
+Patient_1724,Male,53.0,0,0,current,32.1,6.6,240,1
+Patient_1725,Female,57.0,0,0,former,28.51,6.2,240,1
+Patient_1726,Female,65.0,1,0,never,27.91,6.5,130,1
+Patient_1727,Male,59.0,0,0,ever,35.0,6.8,140,1
+Patient_1728,Female,69.0,0,0,former,28.77,8.2,155,1
+Patient_1729,Female,78.0,0,0,never,28.54,7.5,160,1
+Patient_1730,Female,52.0,0,0,never,27.32,8.8,159,1
+Patient_1731,Female,59.0,1,0,current,49.8,6.5,140,1
+Patient_1732,Male,52.0,0,0,current,28.88,8.2,160,1
+Patient_1733,Male,29.0,0,0,never,21.94,9.0,200,1
+Patient_1734,Female,52.0,0,0,never,34.85,6.0,240,1
+Patient_1735,Female,51.0,0,0,former,53.22,6.2,280,1
+Patient_1736,Male,58.0,0,0,not current,36.8,5.8,126,1
+Patient_1737,Female,41.0,0,0,ever,23.31,6.1,280,1
+Patient_1738,Female,80.0,0,0,never,26.8,7.5,220,1
+Patient_1739,Female,41.0,0,0,never,33.64,9.0,240,1
+Patient_1740,Female,80.0,0,0,never,27.32,6.5,280,1
+Patient_1741,Male,64.0,1,0,not current,23.31,6.2,145,1
+Patient_1742,Female,64.0,1,1,former,31.62,7.5,145,1
+Patient_1743,Male,70.0,0,1,never,27.32,5.7,200,1
+Patient_1744,Male,56.0,1,0,never,49.18,7.0,155,1
+Patient_1745,Female,42.0,0,0,never,37.24,6.1,220,1
+Patient_1746,Male,73.0,0,0,former,30.15,6.6,130,1
+Patient_1747,Male,64.0,0,1,former,24.54,5.7,160,1
+Patient_1748,Male,69.0,0,0,never,29.95,8.8,280,1
+Patient_1749,Female,76.0,0,0,never,28.61,6.8,155,1
+Patient_1750,Male,67.0,0,0,never,25.21,8.8,159,1
+Patient_1751,Female,52.0,0,0,not current,27.32,6.2,130,1
+Patient_1752,Female,63.0,0,1,ever,30.12,6.1,145,1
+Patient_1753,Male,80.0,1,0,never,27.32,6.1,145,1
+Patient_1754,Male,47.0,0,0,former,25.29,6.1,280,1
+Patient_1755,Female,35.0,1,0,ever,56.47,6.0,145,1
+Patient_1756,Male,57.0,0,0,not current,30.05,9.0,126,1
+Patient_1757,Male,54.0,0,0,ever,28.34,5.8,145,1
+Patient_1758,Female,56.0,0,0,never,58.06,5.8,280,1
+Patient_1759,Male,28.0,0,0,current,32.24,6.1,159,1
+Patient_1760,Male,63.0,0,0,never,27.32,5.7,200,1
+Patient_1761,Male,55.0,0,0,ever,43.61,5.8,260,1
+Patient_1762,Male,55.0,0,1,never,39.5,6.5,159,1
+Patient_1763,Female,49.0,0,0,never,30.1,7.5,200,1
+Patient_1764,Male,73.0,1,1,current,25.18,8.8,155,1
+Patient_1765,Male,48.0,0,0,never,29.34,6.2,145,1
+Patient_1766,Female,71.0,0,0,never,31.32,6.5,220,1
+Patient_1767,Male,60.0,0,0,never,33.53,8.2,160,1
+Patient_1768,Female,62.0,0,0,never,27.32,7.0,280,1
+Patient_1769,Male,69.0,0,0,former,35.64,6.1,130,1
+Patient_1770,Male,80.0,0,0,not current,29.28,7.5,240,1
+Patient_1771,Male,51.0,1,0,never,27.32,6.5,240,1
+Patient_1772,Female,61.0,0,0,ever,31.6,5.8,159,1
+Patient_1773,Female,67.0,0,0,former,26.81,9.0,159,1
+Patient_1774,Male,61.0,0,0,never,27.32,6.6,159,1
+Patient_1775,Male,80.0,0,1,ever,27.32,5.8,145,1
+Patient_1776,Female,75.0,0,0,never,21.71,7.5,140,1
+Patient_1777,Male,76.0,1,0,never,46.52,6.0,140,1
+Patient_1778,Male,71.0,0,0,never,29.23,6.8,140,1
+Patient_1779,Female,65.0,0,0,never,32.53,8.8,160,1
+Patient_1780,Male,80.0,0,0,former,20.33,6.1,140,1
+Patient_1781,Male,73.0,0,1,former,29.17,5.7,280,1
+Patient_1782,Female,80.0,0,1,never,28.8,7.0,145,1
+Patient_1783,Female,40.0,0,0,current,27.32,6.2,130,1
+Patient_1784,Female,71.0,1,1,never,31.15,8.8,130,1
+Patient_1785,Female,47.0,1,0,never,43.15,5.8,145,1
+Patient_1786,Male,69.0,1,0,never,33.05,6.5,140,1
+Patient_1787,Male,66.0,1,0,not current,29.83,6.1,220,1
+Patient_1788,Female,68.0,1,1,former,34.32,5.7,220,1
+Patient_1789,Female,80.0,1,0,never,23.97,5.8,240,1
+Patient_1790,Female,35.0,0,0,not current,36.03,5.7,220,1
+Patient_1791,Male,67.0,0,1,former,34.42,6.6,280,1
+Patient_1792,Male,48.0,0,0,current,27.32,5.8,140,1
+Patient_1793,Male,75.0,0,1,not current,26.22,7.0,200,1
+Patient_1794,Female,75.0,0,1,former,39.84,6.2,300,1
+Patient_1795,Female,76.0,0,0,never,19.53,7.5,200,1
+Patient_1796,Female,76.0,0,0,never,34.13,5.7,159,1
+Patient_1797,Male,69.0,0,0,former,34.02,9.0,220,1
+Patient_1798,Female,30.0,0,0,not current,38.54,6.1,159,1
+Patient_1799,Female,57.0,0,0,current,30.23,5.7,130,1
+Patient_1800,Female,75.0,0,0,not current,27.32,8.2,155,1
+Patient_1801,Female,65.0,1,0,former,37.0,6.2,126,1
+Patient_1802,Female,66.0,0,0,never,55.1,6.8,155,1
+Patient_1803,Male,80.0,0,0,never,37.08,5.7,159,1
+Patient_1804,Male,53.0,0,0,never,27.32,7.0,220,1
+Patient_1805,Female,46.0,0,0,never,27.32,7.0,145,1
+Patient_1806,Male,70.0,1,0,current,25.94,6.8,155,1
+Patient_1807,Male,67.0,0,0,former,27.32,6.8,155,1
+Patient_1808,Male,55.0,0,0,never,40.72,5.8,140,1
+Patient_1809,Female,44.0,0,0,never,23.51,5.7,155,1
+Patient_1810,Female,79.0,0,1,never,25.24,5.8,240,1
+Patient_1811,Male,79.0,0,1,never,37.98,6.5,280,1
+Patient_1812,Male,72.0,1,0,never,27.32,6.5,160,1
+Patient_1813,Female,62.0,0,0,never,27.32,6.2,155,1
+Patient_1814,Female,68.0,1,0,never,31.37,6.5,155,1
+Patient_1815,Female,70.0,0,0,former,27.32,8.2,145,1
+Patient_1816,Female,55.0,0,0,never,38.96,8.2,220,1
+Patient_1817,Female,21.0,0,0,never,28.2,9.0,126,1
+Patient_1818,Female,64.0,0,0,never,41.92,9.0,260,1
+Patient_1819,Female,64.0,0,1,never,27.32,7.0,126,1
+Patient_1820,Female,80.0,0,0,never,29.93,6.1,260,1
+Patient_1821,Female,56.0,0,0,never,36.27,6.8,145,1
+Patient_1822,Male,72.0,0,0,not current,30.3,5.8,280,1
+Patient_1823,Female,53.0,0,0,current,39.77,8.2,160,1
+Patient_1824,Male,67.0,1,1,not current,27.32,8.2,140,1
+Patient_1825,Female,67.0,0,0,former,27.32,9.0,159,1
+Patient_1826,Male,70.0,1,0,never,25.36,8.2,130,1
+Patient_1827,Male,74.0,0,0,former,28.37,5.8,160,1
+Patient_1828,Male,57.0,0,0,never,25.56,5.7,130,1
+Patient_1829,Female,63.0,0,0,never,32.04,5.7,200,1
+Patient_1830,Female,17.0,0,0,ever,22.9,6.1,130,1
+Patient_1831,Male,62.0,0,0,never,25.45,6.6,200,1
+Patient_1832,Male,34.0,0,0,never,35.7,6.5,126,1
+Patient_1833,Female,35.0,0,0,not current,27.89,6.1,280,1
+Patient_1834,Female,59.0,0,0,former,28.6,6.6,220,1
+Patient_1835,Male,67.0,0,0,ever,28.0,5.8,140,1
+Patient_1836,Female,47.0,1,0,never,59.59,6.6,160,1
+Patient_1837,Male,64.0,1,0,former,44.98,5.8,126,1
+Patient_1838,Female,80.0,0,0,not current,37.4,5.7,280,1
+Patient_1839,Male,21.0,0,0,never,35.49,9.0,240,1
+Patient_1840,Male,65.0,0,0,ever,40.03,9.0,200,1
+Patient_1841,Female,69.0,1,0,never,36.52,8.8,130,1
+Patient_1842,Female,60.0,0,0,not current,36.27,9.0,145,1
+Patient_1843,Male,58.0,1,0,never,27.32,6.8,220,1
+Patient_1844,Male,58.0,0,0,former,32.06,8.2,280,1
+Patient_1845,Male,60.0,0,0,not current,26.06,7.0,300,1
+Patient_1846,Female,70.0,0,1,never,35.24,6.1,200,1
+Patient_1847,Female,80.0,0,0,never,24.84,6.1,160,1
+Patient_1848,Female,80.0,0,0,former,27.32,8.8,155,1
+Patient_1849,Female,70.0,1,0,former,43.73,5.8,130,1
+Patient_1850,Female,67.0,0,0,never,27.32,6.1,280,1
+Patient_1851,Male,61.0,0,0,former,26.91,8.2,126,1
+Patient_1852,Male,67.0,0,1,never,27.32,6.8,300,1
+Patient_1853,Female,64.0,0,0,current,34.91,7.0,126,1
+Patient_1854,Male,73.0,0,0,never,29.87,5.8,220,1
+Patient_1855,Male,50.0,0,0,former,22.16,9.0,220,1
+Patient_1856,Male,32.0,0,0,never,29.37,6.6,140,1
+Patient_1857,Female,75.0,1,0,ever,27.32,6.0,130,1
+Patient_1858,Male,69.0,1,1,former,25.49,8.2,220,1
+Patient_1859,Male,29.0,0,0,never,28.02,8.2,240,1
+Patient_1860,Male,77.0,0,0,never,36.04,6.1,140,1
+Patient_1861,Female,62.0,1,1,never,31.05,5.7,145,1
+Patient_1862,Female,72.0,0,0,never,26.75,6.8,145,1
+Patient_1863,Female,63.0,0,0,not current,41.81,8.8,280,1
+Patient_1864,Male,68.0,0,0,never,29.02,6.2,126,1
+Patient_1865,Male,40.0,0,0,former,32.08,6.1,260,1
+Patient_1866,Male,68.0,1,0,never,27.32,6.5,260,1
+Patient_1867,Female,80.0,0,0,current,24.58,6.1,300,1
+Patient_1868,Female,65.0,0,0,never,28.42,6.1,160,1
+Patient_1869,Female,80.0,1,0,former,20.33,6.5,159,1
+Patient_1870,Male,57.0,0,0,never,37.8,6.6,240,1
+Patient_1871,Female,41.0,0,0,former,27.32,9.0,160,1
+Patient_1872,Male,46.0,0,0,never,33.24,6.6,220,1
+Patient_1873,Male,55.0,0,0,never,39.56,6.1,300,1
+Patient_1874,Female,74.0,1,0,never,32.57,6.8,160,1
+Patient_1875,Female,52.0,1,0,former,28.39,6.5,260,1
+Patient_1876,Female,79.0,1,0,never,37.75,8.2,140,1
+Patient_1877,Male,71.0,0,1,former,27.32,8.8,160,1
+Patient_1878,Female,80.0,0,1,never,27.31,6.8,280,1
+Patient_1879,Female,45.0,0,0,never,40.1,7.5,140,1
+Patient_1880,Male,75.0,0,1,not current,27.32,7.5,140,1
+Patient_1881,Female,67.0,0,0,never,29.86,6.0,280,1
+Patient_1882,Female,56.0,1,0,never,35.15,8.2,240,1
+Patient_1883,Female,44.0,0,0,current,37.31,8.2,280,1
+Patient_1884,Female,71.0,0,0,not current,24.41,9.0,240,1
+Patient_1885,Female,58.0,1,1,never,25.15,9.0,260,1
+Patient_1886,Female,58.0,0,0,never,36.86,9.0,126,1
+Patient_1887,Male,46.0,0,0,never,27.32,6.5,280,1
+Patient_1888,Male,80.0,0,1,not current,32.06,7.5,145,1
+Patient_1889,Male,79.0,1,0,former,26.0,6.6,260,1
+Patient_1890,Male,46.0,0,0,not current,30.07,5.8,145,1
+Patient_1891,Female,51.0,0,0,never,39.55,5.7,160,1
+Patient_1892,Female,70.0,0,0,current,22.68,6.1,260,1
+Patient_1893,Male,66.0,0,0,never,35.72,6.8,280,1
+Patient_1894,Male,76.0,0,0,not current,28.45,8.8,155,1
+Patient_1895,Male,64.0,1,1,never,36.94,6.6,160,1
+Patient_1896,Male,67.0,1,1,ever,33.05,5.7,220,1
+Patient_1897,Female,38.0,0,0,not current,28.42,7.0,160,1
+Patient_1898,Female,47.0,0,0,former,30.7,6.6,240,1
+Patient_1899,Male,77.0,1,0,never,29.7,7.0,240,1
+Patient_1900,Male,77.0,1,1,current,26.63,8.8,140,1
+Patient_1901,Female,52.0,1,0,never,28.12,7.0,140,1
+Patient_1902,Female,67.0,0,0,never,36.7,6.8,220,1
+Patient_1903,Female,72.0,0,0,never,38.93,6.2,300,1
+Patient_1904,Female,58.0,1,0,never,38.41,6.0,280,1
+Patient_1905,Female,56.0,0,0,former,27.32,6.1,126,1
+Patient_1906,Male,56.0,0,0,current,39.41,6.2,126,1
+Patient_1907,Female,75.0,0,0,not current,34.45,5.7,240,1
+Patient_1908,Female,55.0,0,0,former,51.75,6.6,145,1
+Patient_1909,Female,54.0,0,0,ever,43.54,6.6,260,1
+Patient_1910,Male,80.0,0,0,never,27.32,9.0,240,1
+Patient_1911,Male,70.0,0,1,current,38.36,6.1,159,1
+Patient_1912,Female,80.0,0,0,never,29.22,7.0,160,1
+Patient_1913,Female,64.0,0,1,never,53.89,6.2,260,1
+Patient_1914,Male,59.0,1,0,former,34.0,6.5,220,1
+Patient_1915,Male,46.0,1,0,current,30.51,7.0,200,1
+Patient_1916,Male,71.0,1,0,not current,32.89,5.7,159,1
+Patient_1917,Female,71.0,1,0,never,38.8,6.1,220,1
+Patient_1918,Female,80.0,0,0,not current,37.8,6.1,126,1
+Patient_1919,Male,74.0,0,0,ever,33.3,8.8,260,1
+Patient_1920,Male,76.0,1,1,former,27.57,8.8,160,1
+Patient_1921,Female,57.0,0,0,never,34.48,6.2,126,1
+Patient_1922,Male,66.0,0,1,not current,23.76,6.5,280,1
+Patient_1923,Female,62.0,1,0,never,40.77,6.6,280,1
+Patient_1924,Female,62.0,0,0,never,43.49,9.0,300,1
+Patient_1925,Male,74.0,0,0,never,34.04,7.0,240,1
+Patient_1926,Male,70.0,0,1,former,25.59,9.0,300,1
+Patient_1927,Male,67.0,0,0,never,38.52,5.8,240,1
+Patient_1928,Male,78.0,1,0,never,27.32,7.5,140,1
+Patient_1929,Female,63.0,0,0,former,33.9,8.2,240,1
+Patient_1930,Male,44.0,0,0,never,37.62,5.8,155,1
+Patient_1931,Female,56.0,0,0,not current,36.04,9.0,145,1
+Patient_1932,Male,61.0,1,0,current,27.32,6.0,126,1
+Patient_1933,Male,80.0,0,0,former,26.81,6.2,240,1
+Patient_1934,Male,73.0,0,0,former,29.64,5.7,130,1
+Patient_1935,Female,55.0,0,0,not current,38.1,9.0,145,1
+Patient_1936,Female,76.0,0,0,former,34.41,6.2,140,1
+Patient_1937,Male,78.0,0,0,former,43.6,8.2,126,1
+Patient_1938,Female,40.0,0,0,current,33.25,5.7,300,1
+Patient_1939,Male,36.0,0,0,current,28.5,8.2,159,1
+Patient_1940,Male,68.0,0,1,current,24.81,9.0,200,1
+Patient_1941,Male,62.0,0,0,ever,31.96,8.8,155,1
+Patient_1942,Male,73.0,1,0,never,27.32,8.2,220,1
+Patient_1943,Male,51.0,0,0,never,27.32,7.5,130,1
+Patient_1944,Female,61.0,0,0,ever,40.96,9.0,145,1
+Patient_1945,Male,80.0,0,0,former,29.78,6.6,130,1
+Patient_1946,Male,35.0,1,0,current,31.71,7.0,280,1
+Patient_1947,Male,55.0,0,0,current,26.12,6.5,240,1
+Patient_1948,Male,74.0,0,0,current,35.63,5.8,260,1
+Patient_1949,Male,68.0,1,1,current,27.32,8.8,155,1
+Patient_1950,Male,80.0,0,0,ever,21.33,5.7,260,1
+Patient_1951,Male,51.0,0,0,never,44.33,5.8,200,1
+Patient_1952,Male,65.0,0,0,never,35.5,7.0,130,1
+Patient_1953,Female,59.0,0,0,former,39.56,5.7,260,1
+Patient_1954,Female,78.0,0,0,never,28.0,6.8,160,1
+Patient_1955,Male,25.0,1,0,never,36.96,6.2,126,1
+Patient_1956,Female,58.0,0,0,never,36.3,6.0,126,1
+Patient_1957,Male,75.0,0,0,former,27.9,5.8,280,1
+Patient_1958,Male,67.0,0,0,never,24.62,6.0,240,1
+Patient_1959,Male,66.0,1,0,never,27.32,9.0,280,1
+Patient_1960,Male,76.0,0,1,former,20.8,8.2,300,1
+Patient_1961,Female,54.0,0,0,not current,28.9,6.5,160,1
+Patient_1962,Male,75.0,0,0,former,22.65,7.0,140,1
+Patient_1963,Female,75.0,0,1,not current,36.67,9.0,126,1
+Patient_1964,Male,19.0,0,0,never,27.32,6.8,145,1
+Patient_1965,Male,60.0,0,0,former,28.23,6.8,130,1
+Patient_1966,Female,57.0,0,0,never,28.9,6.2,159,1
+Patient_1967,Male,75.0,0,0,ever,41.79,6.2,130,1
+Patient_1968,Female,16.0,0,0,ever,27.5,6.5,159,1
+Patient_1969,Male,75.0,1,0,never,28.02,6.8,200,1
+Patient_1970,Female,80.0,0,1,never,20.94,8.2,130,1
+Patient_1971,Male,26.0,0,0,never,27.89,8.2,140,1
+Patient_1972,Male,74.0,1,0,ever,29.7,9.0,240,1
+Patient_1973,Male,65.0,0,0,former,34.79,6.1,126,1
+Patient_1974,Male,51.0,0,1,current,30.14,6.1,140,1
+Patient_1975,Female,73.0,0,0,never,26.3,6.6,260,1
+Patient_1976,Male,51.0,0,0,never,41.52,7.5,145,1
+Patient_1977,Female,64.0,1,0,not current,52.22,6.8,160,1
+Patient_1978,Female,76.0,1,0,never,32.99,6.0,159,1
+Patient_1979,Male,63.0,0,0,ever,28.79,7.5,140,1
+Patient_1980,Male,56.0,1,0,never,28.73,6.8,160,1
+Patient_1981,Female,69.0,1,1,former,27.32,6.5,280,1
+Patient_1982,Female,80.0,0,0,never,34.2,6.6,140,1
+Patient_1983,Female,47.0,0,0,current,54.06,6.0,126,1
+Patient_1984,Male,35.0,0,0,former,25.72,5.8,130,1
+Patient_1985,Female,70.0,0,1,not current,27.32,8.2,260,1
+Patient_1986,Male,57.0,1,0,current,33.9,6.5,126,1
+Patient_1987,Female,49.0,0,0,never,45.93,6.1,130,1
+Patient_1988,Male,48.0,0,0,current,29.84,9.0,220,1
+Patient_1989,Female,69.0,1,0,never,29.62,6.1,145,1
+Patient_1990,Male,62.0,0,0,ever,29.98,6.0,280,1
+Patient_1991,Female,42.0,0,0,not current,27.32,6.1,280,1
+Patient_1992,Female,55.0,0,0,never,27.32,9.0,240,1
+Patient_1993,Female,58.0,0,0,never,45.76,7.0,126,1
+Patient_1994,Male,30.0,0,0,never,25.86,8.2,130,1
+Patient_1995,Male,76.0,0,1,never,37.55,6.1,160,1
+Patient_1996,Male,80.0,0,0,never,27.32,6.2,130,1
+Patient_1997,Male,58.0,0,0,never,37.0,6.5,280,1
+Patient_1998,Female,42.0,0,0,never,43.26,6.2,159,1
+Patient_1999,Male,63.0,0,0,former,36.82,6.5,160,1
+Patient_2000,Female,80.0,0,0,former,31.59,8.8,145,1
