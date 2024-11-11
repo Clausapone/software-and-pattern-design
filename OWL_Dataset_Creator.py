@@ -1,10 +1,13 @@
+import logging
+
 import numpy as np
 import pandas as pd
 import owlready2 as owl
+from owlready2 import sync_reasoner_pellet
 from rdflib import Graph
 import networkx as nx
 from node2vec import Node2Vec
-
+import owlready2
 
 # SCRIPT CHE CONSENTE DI SALVARE (OFFLINE) GLI EMBEDDINGS OTTENUTI DALL'ONTOLOGIA OWL
 
@@ -33,8 +36,8 @@ def owl_2_embedding(model, individual_iri):
 # {EMBEDDING CREATION PROCESS} ----------------------------------------
 
 # -----[configurazione]
-dataset_path = "diabetes2000.csv"  # SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
-ontology_path = "diabetes_ontology.rdf"  # SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
+dataset_path = "toy_diabetes.csv"  # SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+ontology_path = "diabetes_ontology-2.rdf"  # SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
 embedding_size = 15
 
 # -----[Popolo l'ontologia]
@@ -52,8 +55,26 @@ onto.save(populated_ontology_path)
 
 # -----[eseguo il reasoning]
 
+owlready2.reasoning.JAVA_MEMORY = 8000    # attribuzione della memoria al reasoner, 8 GB
+owlready2.set_log_level(9)
+
+try:
+    with onto:
+
+        sync_reasoner_pellet(infer_property_values=True, infer_data_property_values=True)  # aggiunta delle inferenze all'ontologia
+        unsat = len(list(onto.inconsistent_classes()))     # controllo delle classi inconsistenti
+        if unsat > 0:
+            logging.warning("There are " + str(unsat) + " unsatisfiabiable classes.")
+        print("Ontology successfully inferred using Pellet.")
+
+except:
+    print('Failet to use pellet for inference')
+
+
 
 # -----[ottengo gli embeddings]
+
+
 # grafo rdf dell'ontologia
 rdf_graph = Graph()
 rdf_graph.parse("prova_onto.rdf")
