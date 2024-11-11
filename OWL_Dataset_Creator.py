@@ -1,10 +1,9 @@
-import configparser
 import numpy as np
 import pandas as pd
 import owlready2 as owl
-from joblib.externals.cloudpickle import instance
-
-from owl2vec_star import owl2vec_star
+from rdflib import Graph
+import networkx as nx
+from node2vec import Node2Vec
 
 
 # SCRIPT CHE CONSENTE DI SALVARE (OFFLINE) GLI EMBEDDINGS OTTENUTI DALL'ONTOLOGIA OWL
@@ -27,18 +26,18 @@ def data_2_owl(dataset, features_list, onto):
 
 # avendo l'ontologia popolata, restituisce un embedding di un individuo usando OWL2VEC,
 # l'individuo avrà il nome della prima feature
-def owl_2_embedding(ontology_path, config_file_path, individual_iri):
-    model = owl2vec_star.extract_owl2vec_model(ontology_file="new_" + ontology_path, config_file=config_file_path,
-                                               uri_doc=True, lit_doc=True, mix_doc=True)
-
+def owl_2_embedding(model, individual_iri):
     return np.array(model.wv[individual_iri])
 
 
 # {EMBEDDING CREATION PROCESS} ----------------------------------------
-# [Popolo l'ontologia]
-dataset_path = "diabetes80.csv"  #SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
-ontology_path = "diabetes_ontology.rdf"  #SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
-config_file_path = "my_config.cfg"
+
+# -----[configurazione]
+dataset_path = "diabetes2000.csv"  # SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+ontology_path = "diabetes_ontology.rdf"  # SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
+embedding_size = 15
+
+# -----[Popolo l'ontologia]
 
 onto = owl.get_ontology(ontology_path).load()
 
@@ -48,21 +47,35 @@ features_list = np.array(dataframe.columns)
 dataset = dataframe.to_numpy()
 
 data_2_owl(dataset, features_list, onto)  # popolo ontologia
-onto.save("new_" + ontology_path)
+populated_ontology_path = "populated_" + ontology_path
+onto.save(populated_ontology_path)
 
-# [ottengo gli embeddings]
-# effettuo il parsing del file di configurazione per avere l'embedding size
-config = configparser.ConfigParser()
-config.read(config_file_path)
-embedding_size = int(config['MODEL']['embed_size'])
+# -----[eseguo il reasoning]
+
+
+# -----[ottengo gli embeddings]
+# grafo rdf dell'ontologia
+rdf_graph = Graph()
+rdf_graph.parse("prova_onto.rdf")
+
+# trasformazione del grafo rdf in grafo networkx per node2vec
+nx_graph = nx.Graph()
+
+# popolamento del grafo
+for s, p, o in rdf_graph:
+    nx_graph.add_edge(s, o, label=p)
+
+node2vec = Node2Vec(nx_graph, dimensions=embedding_size, walk_length=20, num_walks=200, workers=4)
+model = node2vec.fit()
 
 OWL_dataset = np.empty((0, embedding_size))
 for data_sample in dataset:
-    # iri dell'individuo di cui fare l'embedding
-    individual_iri = onto.base_iri + data_sample[0]     # (ES. individual_iri=http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient_1)
 
-    # calcolo gli embeddings
-    individual_embedding = owl_2_embedding(ontology_path, config_file_path, individual_iri)  # creo l'embedding di ogni individuo dall'ontologia usando il suo iri
+    # iri dell'individuo di cui fare l'embedding
+    individual_iri = onto.base_iri + data_sample[0]  # (ES. individual_iri=http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient_1)
+
+    # calcolo l'embedding di ogni individuo dall'ontologia usando il suo iri
+    individual_embedding = owl_2_embedding(model, individual_iri)
     OWL_dataset = np.vstack((OWL_dataset, individual_embedding))
 
-np.save("OWL_dataset80.npy", OWL_dataset)
+np.save("OWL_dataset2000.npy", OWL_dataset)
