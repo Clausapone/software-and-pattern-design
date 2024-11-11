@@ -411,15 +411,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy">
@@ -443,6 +434,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Slow_wound_healing">
         <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Diabetes"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Symptoms"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_consequences -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_consequences">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Causes"/>
     </owl:NamedIndividual>
     
 
@@ -537,7 +536,7 @@
                                                 <rdf:rest>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</rdf:first>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</rdf:first>
                                                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                                     </rdf:Description>
                                                 </rdf:rest>
@@ -582,221 +581,7 @@
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
                                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Hyperthyroidism</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasHeart_disease"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Smoking1</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasSmoking_history"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2>current</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Smoking3</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasSmoking_history"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2>ever</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -844,121 +629,12 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_consequences"/>
                     </rdf:Description>
                 </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>LackOfExercise&amp;insulin_resistance</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasBMI"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#bmi"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#bmi"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
@@ -1122,34 +798,15 @@
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Obesity"/>
                     </rdf:Description>
                 </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>PoorDiet</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
                 <rdf:rest>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasBMI"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has"/>
                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#bmi"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Overweight"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1157,21 +814,10 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#bmi"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.5</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1179,20 +825,6 @@
                         </rdf:rest>
                     </rdf:Description>
                 </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Poor_diet"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:Description>
         </swrl:head>
     </rdf:Description>
@@ -1269,135 +901,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>Female</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasGender"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2>Female</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Pregnancy"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>insulin_resist</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasHbA1c_level"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>insulin_prod1</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -1459,6 +962,251 @@
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_insuline_production"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>ins_res</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasHbA1c_level"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Insulin_resistance"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Hyperthyroidism</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasHeart_disease"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#h"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Hyperthyroidism"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#mayHave"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Lack_of_exercise"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Smoking1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasSmoking_history"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                        <swrl:argument2>current</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_consequences"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Smoking3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#hasSmoking_history"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                                <swrl:argument2>ever</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#has"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Smoking_consequences"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>

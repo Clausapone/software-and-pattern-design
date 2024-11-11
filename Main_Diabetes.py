@@ -17,24 +17,24 @@ torch.manual_seed(42)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # LOAD DEL DATASET E PREPROCESSING DEI DATI
-dataset_path = "diabetes80.csv"
+dataset_path = "diabetes2000.csv"
 dataframe = pd.read_csv(dataset_path)
 dataframe.drop('Patient', axis=1, inplace=True)     # non considero la prima colonna con l'ID univoco del paziente
 
 # alcune modifiche manuali al dataset
 dataframe["Gender"] = dataframe["Gender"].map({"Male": 1, "Female": 0})
-dataframe["Smoking_history"] = dataframe["Smoking_history"].map({"never": 0, "former": 1, "not current": 1, "current": 2, "ever": 3})
+dataframe["Smoking_history"] = dataframe["Smoking_history"].map({"never": 0, "former": 1, "current": 2, "ever": 3})
 
 Y = np.array(dataframe['Diabetes'])       # variabile target
 
 dataframe.drop('Diabetes', axis=1, inplace=True)
 dataset = np.array(dataframe)
 
-OWL_dataset = np.load("OWL_dataset80.npy")      # dataset OWL
+OWL_dataset = np.load("OWL_dataset2000.npy")      # dataset OWL
 
 # nuovo dataset arricchito
 X = np.hstack((dataset, OWL_dataset))
-#X = dataset
+#X = OWL_dataset
 
 model = Simple_NeuralNetwork(X.shape[1])
 loss_criterion = BCELoss()
