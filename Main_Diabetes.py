@@ -17,7 +17,7 @@ torch.manual_seed(42)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # LOAD DEL DATASET E PREPROCESSING DEI DATI
-dataset_path = "diabetes2000.csv"
+dataset_path = "diabetes1000.csv"
 dataframe = pd.read_csv(dataset_path)
 dataframe.drop('Patient', axis=1, inplace=True)     # non considero la prima colonna con l'ID univoco del paziente
 
@@ -30,11 +30,10 @@ Y = np.array(dataframe['Diabetes'])       # variabile target
 dataframe.drop('Diabetes', axis=1, inplace=True)
 dataset = np.array(dataframe)
 
-OWL_dataset = np.load("OWL_dataset2000.npy")      # dataset OWL
+OWL_dataset = np.load("OWL_dataset1000.npy")      # dataset OWL
 
 # nuovo dataset arricchito
 X = np.hstack((dataset, OWL_dataset))
-#X = OWL_dataset
 
 model = Simple_NeuralNetwork(X.shape[1])
 loss_criterion = BCELoss()
@@ -52,12 +51,12 @@ X_test = torch.tensor(X_test, dtype=torch.float).to(device)
 Y_train = torch.tensor(Y_train, dtype=torch.float).to(device)
 Y_test = torch.tensor(Y_test, dtype=torch.float).to(device)
 
-loss_history = train(model, X_train, Y_train, optimizer, loss_criterion, 1500)
+loss_history = train(model, X_train, Y_train, optimizer, loss_criterion, 1100)
 
 # test
 test_loss, test_accuracy, test_precision, test_recall, test_f1_s, conf_mat = test(model, X_test, Y_test, loss_criterion)
 
 show_loss_history(loss_history)
-#show_confusion_matrix(conf_mat)
+show_confusion_matrix(conf_mat)
 show_metrics(test_accuracy, test_precision, test_recall, test_f1_s)
 
