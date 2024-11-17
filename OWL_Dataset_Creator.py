@@ -49,7 +49,7 @@ def owl_2_embedding(model, base_iri):
 # {EMBEDDING CREATION PROCESS} ----------------------------------------
 
 # -----[configurazione]
-dataset_path = "diabetes1000.csv"  # SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+dataset_path = "diabetes2000.csv"  # SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 ontology_path = "diabetes_ontology.rdf"  # SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
 embedding_size = 15
 
@@ -91,4 +91,4 @@ for data_sample in dataset:
     individual_embedding = owl_2_embedding(model, base_iri)
     OWL_dataset = np.vstack((OWL_dataset, individual_embedding))
 
-np.save("OWL_dataset1000.npy", OWL_dataset)
+np.save("OWL_dataset2000.npy", OWL_dataset)

@@ -17,7 +17,7 @@ torch.manual_seed(42)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # LOAD DEL DATASET E PREPROCESSING DEI DATI
-dataset_path = "diabetes1000.csv"
+dataset_path = "diabetes2000.csv"
 dataframe = pd.read_csv(dataset_path)
 dataframe.drop('Patient', axis=1, inplace=True)     # non considero la prima colonna con l'ID univoco del paziente
 
@@ -30,7 +30,7 @@ Y = np.array(dataframe['Diabetes'])       # variabile target
 dataframe.drop('Diabetes', axis=1, inplace=True)
 dataset = np.array(dataframe)
 
-OWL_dataset = np.load("OWL_dataset1000.npy")      # dataset OWL
+OWL_dataset = np.load("OWL_dataset2000.npy")      # dataset OWL
 
 # nuovo dataset arricchito
 X = np.hstack((dataset, OWL_dataset))
