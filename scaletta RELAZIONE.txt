@@ -1,0 +1,26 @@
+RELAZIONE SOFTWARE ARCHITCTURE AND DESIGN
+
+- ABSTRACT
+
+- CAP 1: STATO DELL'ARTE
+	- OWL
+	- NODE2VEC
+	- OWL2VEC (WORD2VEC)
+
+- CAP 2: PIPELINE CREAZIONE EMBEDDINGS
+	- dataset e ontologia + regole
+	- data2owl
+	- reasoning con Pellet
+	- owl2Embedding
+
+- CAP 3: ML PROCESS
+	- preprocessing
+	- modello utilizzato
+	- funzioni di training e test
+	
+- CAP 4: RISULTATI
+	- risultati dataset 2000
+	- risultati dataset 1000
+	- risultati con owl2vec (solo rumore)
+
+- CONCLUSIONI E SVILUPPI FUTURI
