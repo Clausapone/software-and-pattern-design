@@ -30,10 +30,12 @@ Y = np.array(dataframe['Diabetes'])       # variabile target
 dataframe.drop('Diabetes', axis=1, inplace=True)
 dataset = np.array(dataframe)
 
-OWL_dataset = np.load("OWL_dataset2000.npy")      # dataset OWL
+OWL_dataset = np.load("OWL_dataset2000_N2V.npy")      # dataset OWL
 
 # nuovo dataset arricchito
 X = np.hstack((dataset, OWL_dataset))
+#X = dataset
+
 
 model = Simple_NeuralNetwork(X.shape[1])
 loss_criterion = BCELoss()
@@ -42,6 +44,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=5e-4)
 # splitting
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42, shuffle=True)
 
+# scaling
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
@@ -51,7 +54,7 @@ X_test = torch.tensor(X_test, dtype=torch.float).to(device)
 Y_train = torch.tensor(Y_train, dtype=torch.float).to(device)
 Y_test = torch.tensor(Y_test, dtype=torch.float).to(device)
 
-loss_history = train(model, X_train, Y_train, optimizer, loss_criterion, 1100)
+loss_history = train(model, X_train, Y_train, optimizer, loss_criterion, 800)
 
 # test
 test_loss, test_accuracy, test_precision, test_recall, test_f1_s, conf_mat = test(model, X_test, Y_test, loss_criterion)
