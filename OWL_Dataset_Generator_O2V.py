@@ -1,4 +1,6 @@
 import configparser
+from threading import main_thread
+
 import numpy as np
 import pandas as pd
 import owlready2 as owl
@@ -14,13 +16,13 @@ from owl2vec_star import owl2vec_star
 def data_2_owl(dataset, features_list, onto):
 
     with (onto):
-        # classe degli individui (ES. individual_class = classe Patient)
-        individual_class = onto[features_list[0]]
+        # classe degli individui (ES. main_individual_class = classe Patient)
+        main_individual_class = onto[features_list[0]]
         for data_sample in dataset:
             for i, feature in enumerate(features_list):
                 if i == 0:
                     # creo un nuovo individuo di classe Paziente (ES. data_sample[0] = Patient_1)
-                    individual = individual_class(data_sample[i])
+                    individual = main_individual_class(data_sample[i])
                 else:
                     hasFeature = 'has' + feature    # attributo per l'individuo (ES. hasFeature = hasAge)
                     setattr(individual, hasFeature, [data_sample[i]])

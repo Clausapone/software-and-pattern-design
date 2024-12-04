@@ -17,7 +17,7 @@ torch.manual_seed(42)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # LOAD DEL DATASET E PREPROCESSING DEI DATI
-dataset_path = "diabetes2000.csv"
+dataset_path = "diabetes80.csv"
 dataframe = pd.read_csv(dataset_path)
 dataframe.drop('Patient', axis=1, inplace=True)     # non considero la prima colonna con l'ID univoco del paziente
 
@@ -30,7 +30,7 @@ Y = np.array(dataframe['Diabetes'])       # variabile target
 dataframe.drop('Diabetes', axis=1, inplace=True)
 dataset = np.array(dataframe)
 
-OWL_dataset = np.load("OWL_dataset2000_N2V.npy")      # dataset OWL
+OWL_dataset = np.load("OWL_dataset80_N2V.npy")      # dataset OWL
 
 # nuovo dataset arricchito
 X = np.hstack((dataset, OWL_dataset))
@@ -42,7 +42,7 @@ loss_criterion = BCELoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=5e-4)
 
 # splitting
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42, shuffle=True)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, stratify=Y, random_state=42, shuffle=True)
 
 # scaling
 scaler = StandardScaler()
