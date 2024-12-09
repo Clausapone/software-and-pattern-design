@@ -1,20 +1,35 @@
 FILES EXPLANATION:
 
 ONTOLOGY-DRIVEN_ML_REPORT.pdf: project report
-ONTOLOGY-DRIVEN_ML_PRESENTATION.pdf: project presentation
-owl2vec_star: folder with the OWL2Vec* framework's code.
-OWL_Dataset_Generator_N2V.py: script that extracts embeddings (OWL dataset) from the ontology to be aggregated to the original dataset; using Node2Vec.
-OWL_Dataset_Generator_O2V.py: script that extracts embeddings (OWL dataset) from the ontology to be aggregated to the original dataset; using OWL2Vec*.
-OWL_dataset1000_N2V.npy: numpy file that stores results of OWL_Dataset_Generator_N2V.py with reduced dataset.
-OWL_dataset1000_O2V.npy: numpy file that stores results of OWL_Dataset_Generator_O2V.py with reduced dataset.
-OWL_dataset2000_N2V.npy: numpy file that stores results of OWL_Dataset_Generator_N2V.py with complete dataset.
-Main_Diabetes.py: test scenario implemented to evaluate our architecture.
-Model.py: function that contains the neural network model class.
-Train.py: training function for ML model.
-Test.py: testing function for ML model.
-Metrics_plot.py: functions that plots classification metrics.
-my_config.cfg: config file to configurate OWL2Vec* parameters.
-diabetes_ontology.rdf: ontology file in OWL language
-diabetes2000.csv: complete dataset file
-diabetes1000.csv: reduced dataset file
 
+ONTOLOGY-DRIVEN_ML_PRESENTATION.pdf: project presentation
+
+owl2vec_star: folder with the OWL2Vec* framework's code.
+
+OWL_Dataset_Generator_N2V.py: script that extracts embeddings (OWL dataset) from the ontology to be aggregated to the original dataset; using Node2Vec.
+
+OWL_Dataset_Generator_O2V.py: script that extracts embeddings (OWL dataset) from the ontology to be aggregated to the original dataset; using OWL2Vec*.
+
+OWL_dataset1000_N2V.npy: numpy file that stores results of OWL_Dataset_Generator_N2V.py with reduced dataset.
+
+OWL_dataset1000_O2V.npy: numpy file that stores results of OWL_Dataset_Generator_O2V.py with reduced dataset.
+
+OWL_dataset2000_N2V.npy: numpy file that stores results of OWL_Dataset_Generator_N2V.py with complete dataset.
+
+Main_Diabetes.py: test scenario implemented to evaluate our architecture.
+
+Model.py: function that contains the neural network model class.
+
+Train.py: training function for ML model.
+
+Test.py: testing function for ML model.
+
+Metrics_plot.py: functions that plots classification metrics.
+
+my_config.cfg: config file to configurate OWL2Vec* parameters.
+
+diabetes_ontology.rdf: ontology file in OWL language.
+
+diabetes2000.csv: complete dataset file.
+
+diabetes1000.csv: reduced dataset file.
