@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 
 
-# function to visualize the confusion matrix
+# Function to visualize the confusion matrix
 def show_confusion_matrix(conf_mat):
     conf_mat = np.array(conf_mat)
 
@@ -15,7 +15,7 @@ def show_confusion_matrix(conf_mat):
     plt.show()
 
 
-# function to visualize training loss over epochs
+# Function to visualize training loss over epochs
 def show_loss_history(loss_history):
     plt.figure(figsize=(8, 6))
     plt.title('LOSS HISTORY')
@@ -25,7 +25,7 @@ def show_loss_history(loss_history):
     plt.show()
 
 
-# function to visualize metrics values
+# Function to visualize metrics values
 def show_metrics(accuracy, precision, recall, f1_score):
     _, ax = plt.subplots()
     text = (f"Accuracy: {100 * accuracy:.2f} %"

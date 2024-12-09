@@ -1,5 +1,7 @@
 import torch.nn as nn
 
+# {NEURAL NETWORK MODEL CLASS}
+
 class Simple_NeuralNetwork(nn.Module):
     def __init__(self, input_size):
         super().__init__()

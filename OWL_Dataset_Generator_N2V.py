@@ -6,29 +6,27 @@ from rdflib import Graph
 import networkx as nx
 from node2vec import Node2Vec
 
+# {SCRIPT TO SAVE NUMPY EMBEDDINGS COMPUTED FROM OUR INPUT ONTOLOGY OFFLINE (using Node2Vec)}
 
-# SCRIPT CHE CONSENTE DI SALVARE (OFFLINE) GLI EMBEDDINGS OTTENUTI DALL'ONTOLOGIA OWL
+# UTILS FUNCTIONS
 
-# {UTILS FUNCTIONS} ----------------------------------------
-# funzione che popola l'ontologia avendo ontologia e dataset
+# Function to populate input ontology using dataset information
 def data_2_owl(dataset, features_list, onto):
 
     with (onto):
-        # classe degli individui (ES. individual_class = classe Patient)
-        individual_class = onto[features_list[0]]
+        individual_class = onto[features_list[0]]   # Main_individual class
         for data_sample in dataset:
             for i, feature in enumerate(features_list):
                 if i == 0:
-                    # creo un nuovo individuo di classe Paziente (ES. data_sample[0] = Patient_1)
-                    individual = individual_class(data_sample[i])
+                    individual = individual_class(data_sample[i])   # Adding individuals to Main_individual class
                 else:
-                    hasFeature = 'has' + feature    # attributo per l'individuo (ES. hasFeature = hasAge)
+                    hasFeature = 'has' + feature    # Adding Data properties to each individual
                     setattr(individual, hasFeature, [data_sample[i]])
 
 
-# funzione che effettua il reasoning per dedurre le regole nell'ontologia
+# Function to deduct new axioms in our input ontology with Pellet reasoner
 def onto_reasoning(onto):
-    owl.reasoning.JAVA_MEMORY = 8000  # attribuzione della memoria al reasoner, 8 GB
+    owl.reasoning.JAVA_MEMORY = 8000  # 8 GB of memory allocated for reasoning
     try:
         with onto:
             sync_reasoner_pellet(infer_property_values=True, infer_data_property_values=True)
@@ -37,50 +35,42 @@ def onto_reasoning(onto):
         print('inference Failed')
 
 
-# avendo l'ontologia popolata, restituisce un embedding di un individuo usando OWL2VEC,
-# l'individuo avrà il nome della prima feature
+# Function to extract individual embeddings from our trained Node2Vec model given individual IRI
 def owl_2_embedding(model, base_iri):
-    # iri dell'individuo di cui fare l'embedding (ES. individual_iri=http://www.semanticweb.org/alessiomattiace/ontologies/2024/9/untitled-ontology-8#Patient_1)
-    individual_iri = base_iri + data_sample[0]
+    individual_iri = base_iri + data_sample[0]  # computing individual IRI
     return np.array(model.wv[individual_iri])
 
 
-# {EMBEDDING CREATION PROCESS} ----------------------------------------
 
-# -----[configurazione]
-dataset_path = "diabetes2000.csv"  # SU: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
-ontology_path = "diabetes_ontology.rdf"  # SU: https://bioportal.bioontology.org/ontologies/CDMONTO/?p=classes&conceptid=http%3A%2F%2Fwww.semanticweb.org%2Fkhaled%2Fontologies%2F2024%2F7%2FCDMOnto%23Diabetes&lang=en
+# EMBEDDING CREATION PROCESS
+
+# Configuration
+dataset_path = "diabetes2000.csv"
+ontology_path = "diabetes_ontology.rdf"
 embedding_size = 15
 
-# -----[Popolo l'ontologia]
-
+# Ontology population
 onto = owl.get_ontology(ontology_path).load()
-
-# carico i nomi delle features e l'intero dataset senza tener conto della colonna target
 dataframe = pd.read_csv(dataset_path).iloc[:, :-1]
 features_list = np.array(dataframe.columns)
 dataset = dataframe.to_numpy()
 
-data_2_owl(dataset, features_list, onto)  # popolo ontologia
+data_2_owl(dataset, features_list, onto)
 populated_ontology_path = "populated_" + ontology_path
 onto.save(populated_ontology_path)
 
-# -----[eseguo il reasoning]
+# Pellet reasoning
 onto_reasoning(onto)
 
-# -----[ottengo gli embeddings]
-# grafo rdf dell'ontologia
-rdf_graph = Graph()
+# Graph creation
+rdf_graph = Graph()     # creating a graph basing on rdf file
 rdf_graph.parse("reasoned_diabetes_ontology.rdf")
 
-# trasformazione del grafo rdf in grafo networkx per node2vec
-nx_graph = nx.Graph()
-
-# popolamento del grafo
+nx_graph = nx.Graph()   # transformation into networkx graph adding node and edges
 for s, p, o in rdf_graph:
     nx_graph.add_edge(s, o, label=p)
 
-# Creazione e addestramento del modello node2vec
+# Node2Vec instantiation
 node2vec = Node2Vec(nx_graph,
                     dimensions=embedding_size,
                     walk_length=20,
@@ -91,13 +81,12 @@ node2vec = Node2Vec(nx_graph,
 
 model = node2vec.fit()
 
-# Creazione OWL_dataset
+# Embedding extraction
 OWL_dataset = np.empty((0, embedding_size))
-for data_sample in dataset:
-    base_iri = onto.base_iri
-
-    # calcolo l'embedding di ogni individuo dall'ontologia
+base_iri = onto.base_iri
+for data_sample in dataset:     # computing embeddings iterating over dataset rows (individuals)
     individual_embedding = owl_2_embedding(model, base_iri)
     OWL_dataset = np.vstack((OWL_dataset, individual_embedding))
 
+# Saving embeddings offline in a numpy file
 np.save("OWL_dataset2000_N2V.npy", OWL_dataset)

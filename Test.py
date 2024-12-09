@@ -25,7 +25,7 @@ def test(model, X_test, Y_test, criterion):
         f1_score(preds, Y_test)
         conf_mat(preds, Y_test)
 
-        # Ottenere il valore delle metriche
+        # Evaluation metrics
         accuracy = accuracy(preds, Y_test)
         precision = precision(preds, Y_test)
         recall = recall(preds, Y_test)
