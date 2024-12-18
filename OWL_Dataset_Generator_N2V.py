@@ -8,7 +8,7 @@ from node2vec import Node2Vec
 
 # {SCRIPT TO SAVE NUMPY EMBEDDINGS COMPUTED FROM OUR INPUT ONTOLOGY OFFLINE (using Node2Vec)}
 
-# UTILS FUNCTIONS
+# UTILS FUNCTIONS ------------------------
 
 # Function to populate input ontology using dataset information
 def data_2_owl(dataset, features_list, onto):
@@ -42,7 +42,7 @@ def owl_2_embedding(model, base_iri):
 
 
 
-# EMBEDDING CREATION PROCESS
+# EMBEDDING CREATION PROCESS ------------------------
 
 # Configuration
 dataset_path = "diabetes2000.csv"
@@ -51,7 +51,7 @@ embedding_size = 15
 
 # Ontology population
 onto = owl.get_ontology(ontology_path).load()
-dataframe = pd.read_csv(dataset_path).iloc[:, :-1]
+dataframe = pd.read_csv(dataset_path).iloc[:, :-1]      # we don't take into account last column (Outcomes)
 features_list = np.array(dataframe.columns)
 dataset = dataframe.to_numpy()
 
@@ -63,10 +63,10 @@ onto.save(populated_ontology_path)
 onto_reasoning(onto)
 
 # Graph creation
-rdf_graph = Graph()     # creating a graph basing on rdf file
+rdf_graph = Graph()     # creating a graph parsing a rdf file
 rdf_graph.parse("reasoned_diabetes_ontology.rdf")
 
-nx_graph = nx.Graph()   # transformation into networkx graph adding node and edges
+nx_graph = nx.Graph()   # transformation into networkx graph adding nodes (subjcects-s, objects-o) and edges (predicates-p)
 for s, p, o in rdf_graph:
     nx_graph.add_edge(s, o, label=p)
 
@@ -75,7 +75,7 @@ node2vec = Node2Vec(nx_graph,
                     dimensions=embedding_size,
                     walk_length=20,
                     num_walks=1000,
-                    workers=4,
+                    workers=8,
                     p=1,
                     q=4)
 
